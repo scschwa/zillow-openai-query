@@ -1,0 +1,323 @@
+{
+  "id": "resp_0eaada06d7759d0b006ab274174e9887d2a995c20ef192fc66",
+  "created_at": 1790080023.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.6-luna",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0eaada06d7759d0b006ab27418c9f487d2adf1f42ed8c6b16a",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnQlzFpxYYdXoTebgygxkStDhhyDERloTqfG61kuSAgNjQFH8i0QrO5i1QsH5oH86RAaKLXzEcGV-9vsdHatY9fYfa4dLhB9XnSKTuOymlfHwHeYtOUr2XBcjNZ41y4euStsBs1UQTfmWn__iAs63QxuTpGRQ76n1TJfI4s8tKICngAXOLIgz9CrlSFzNkD3DCSlkEt0SlVe0butxn6qp2HOqYk7rOVrg8ETJ7FS125kNEAno9SffXHeF14baEu-unZLzh1lFMwXGUYxFnu4IqEsiCrtHxteZL_Sq5joZURw4vfpdNECaEAro80NOCTMLqr5PInjv6pdJrkYSMJ60Hk7h7hO0AWvMUl7rDseBl0AZtBANwJowp082eu0lI62yFRQU23vhqHw-Ny2EhaA0Mr5HqQUyIoqpKjfP7RAtOw6U2x9Rhn70z7GXVgeckyOVfQpgXOJB3RkLBD7CK6y5vjhFv1j_6qiWihK3JJvOdS_WQ4dbK76TC_zlkd4RRbCy0Q8h-en_EHWLQS0eu_I0o1wru3TP0OQYodaTjggv3SkR92xvnMPPHKQ1AxJgYmqfYtUUGgZUdCqNVVrikJ1nOg3TeUxTJpA60cUUxVOdwPo1j-YCGoWj4e0SSMxvFU8kePKHZUEhxu7LgCdqSSyXNqP-aE8K7UkO35i0Vp92YXWRwlWwI44h-chDmDm1n1RulX5c4RQW9HAUombiefVbGJxgl1YHOuIUU5gR6Pou5uo6bd60IxND147pNGRFA6w35UpkO1w_M0j8LEU4mm7Wu_jOhY71sUyyvBQ1Knqs5j2o_h8FLmPTpVxn2GZrqwAgkkOI11LqmLHXR0nuwSbPmaIMxgiegO_AO2a-mT5R6arHm_g_gCWxR2xNwnFJGJ2vbzVoUmP6PEfttUu8NLcyBUTom8B40RdgUoKdf3I70Rx1GSr1FJ4cMbbr3Vi7IJfeBLq2_lA3gFBfHMnTa_Drswd32b7zb35idzjh4Wr12pt3RvpH4emviq18wstBUezGedOrVd-IKxTRiNQyggOuBa6p3ysTtLEeZ_sx_sEGdOdunsBQk2_9Po2Mok5OS54ylpqoTKTRJwcXIJ8uVo2c1Q6357CFRLGdfq9-dldjh4fflKYLckWXmKlX-WLgAWvWn92VW4I7NxYiNh_IkyVAmqlo2mY5eSXuf8f8N5ew9sPC0HPjNKNKJpBeb0kDu87v7WxDChjobdOupkYMeBk7nACavKM7GLJF1IKow2menmaGA5QDPuL9baOUm58F8XNkkRfCvrikRTCOdVUOjX5dXiV68iyUhBhhtQ8z6mZcbqkfmEY7RCj_B6kj0eKzTw7EymSmZEjz3H7BBIf4J83NiG2WJjcGZk3AOEnrhFcIzlQ5R4cFmhuHeF8izQVWmiNopkQD6utha2E4PZMgFMPjivSwak4LuM63vIkzb04mn9FYEMJYpj3DgkvNxk_c1_nK1LEuJ8HmGKpL7KLNSK_dpnJwjhsMKiy6xYcfa2w5TkFrbshSpB8BOFtnHWs_qjGjBDRPCEx4yWUZiUrRdi2g6lLvw==",
+      "status": null
+    },
+    {
+      "id": "ws_0eaada06d7759d0b006ab27419729c87d297028bf6646ef5d9",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:zillow.com 3726 Harrison St NW Washington DC 20015 Zillow"
+        ],
+        "query": "site:zillow.com 3726 Harrison St NW Washington DC 20015 Zillow",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/washington-dc-20015/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/washington-dc-20015/houses/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/washington-dc-20015/condos/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3726-Military-Rd-NW-Washington-DC-20015/449080_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3726-Jenifer-St-NW-Washington-DC-20015/449315_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3728-Harrison-St-NW-Washington-DC-20015/449396_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/browse/homes/dc/district-of-columbia/20015/6/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/washington-dc-20015/luxury-homes/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3726-Jocelyn-St-NW-Washington-DC-20015/449150_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3726-Northampton-St-NW-Washington-DC-20015/448925_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/b/3726-brandywine-st-nw-washington-dc-9PbhNk/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0eaada06d7759d0b006ab2741b02d087d29941bfaca23d04db",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnQlXij5btveDICvQaVtsyPeTEtbEzaRushmnPS677-CTG0WvXD3DaWSh7NSOfiOd0pAinziPOlAel2G2ypkoomuZ-P4TEPCnKbK3XTwK0FOwRzVyKE-YWEe2yk-1kRwHcLGi-BbElKosXAYFdq-u_wjuFhFzKMmbErZfEvXP_ohxFT5hUFPHUiak0LwEa5KXlSBFga7u_yOy9fE7bLWnJEn8b1QvKM9nnPC4vGETHpgwBqr1-2A8bPL17GL_k6_nmL-lnxHXXl7ILXp6SaKnhS9uAIodyyGqvm2QMrxnLKH3VET3RTtBz58Ce4dT9f1afsWjxhsmJNtLINPeuJPrBd5DDBe5_yjUtJ6HpBmoDWD4mK8ztZodh1_EalNRkoPyY84BobYMuTg8QLWZzh98e7QgsD5y9weo8qbBozU7UgTb9bBtdtRxKyKt_lnpoUOF59kl_zo5SVuIZGif83l2Tm5b2d8jBVzVEF324WRkwy8tdV_zX1vMVMjkppZ23jdIy5Sh63g_2y9Ibam-IemORIEnq79Vs9BTGgP1D7KAwbfMzyPdZv0BWPQKt-Qb5TaPruDzBDUoA9ShwojBzeNXb6VVEK1gZm-vqbemqXqYkktRBzRdSD1NPEO6115AlX_WDRDDYMoMk8wMKRBkefHjogoIHuxQqOe39lzN1VurKb3CRPCxVXbFUb0fNsJ2ZnwHwOFIFAn6XlpzEGc3_z6Pr81T3-RsLaO1GpfS27ZXtHdweo87n5o66Q9KAojDP9E3LELIuyRK7ZclEzRTLD7WUJOpb9655n_KrE_8CHzgQT-4i-4n-HAns53884oUp6scXoACYN19YD5ZxtP8rBhbGFvAK0KIcpRFWfXq7sFg2grsGj_zPveDCRNTPTqjn4pUHMWCCmaZMmBybLPS1_iePbmAzvZhzr1UMSaqlF9U5D-bNzBm6Lc9VLjhKdxMqXWa7jJ2ZhxbCA6Si_zl2NuD7ER88ECBEts4ScC9TeoRyH-6l3xEmHOMhGaAyRpvDYnxZmy1X3Fz1qCq2-JAX6vDFi0HC5YW3HplZv7JtmtrXIiOeoibdmnknaHnq7IKaxGFbG3i-3Wddxru_uevXurNs0JmwyqlzpchPciE1gtcTxXoBYdhFIidca1QR6AnQDmj5Ku_-qfZ-aWY27ADgYt11vnSEYMlJdv21YYQo1qfQkcTKEZVK2PSILhBMbrae4jU36ETy4Oy8SNXFM9dhomS9MsyY8oEvKsCrZQ2ci3CAwOcnoZD_L4Fo-0pK7M49vUjagXPVyIKYL2_qb0jsIo_NFPQQ==",
+      "status": null
+    },
+    {
+      "id": "ws_0eaada06d7759d0b006ab2741bb9cc87d2964d17c70907817f",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0eaada06d7759d0b006ab2741d096087d2817368454e0291d5",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnQlNTZCKMez3kO0mALSazSqBAQuZ1U7uwHFSBtrcUSEAv1yh2rSPH1P8L0LzaZWyZGDabnMJyBWYdLt_ZuZI7dqshl3H5A9YjX7nZ0aJJxLOJOp7NfqbnioB40u0Ydmwmc0qbxBVLwQpol8TySO7cbIXTPFkrQoOGRGXIwpjwaX1DzV2Geu764qHd0-k5ReD0yorWFmpy_UsXRi3zjwGIHixvFZhUdqvNqA8ZxON3VKCTCQDCHw8OxZRVIagLqZqQwCF8lhAR57UhEPS1__BvZMh8DJW_jx323xCYgBc8Rr5qhbkjiV2YfCKIWoqvsCDdFlzWAKHLrSnstFNFgCH5BH5MCPkk7tzKxcKv6O6xtpWAvbwZ202nG2PnlXr3_2fMD3jdPiNvC3pUQhmrrVg1OlyfZNFnpS4Cduk6EAVKzJykFOaJqgbHdMvKeIV2M_tjsKImQqtT9E6dxeJWG3IdtSe_zGA8eaPNXVbKiF6KbFlOUnaJ-rlVHRHAjWcPuUh9fj016n0c1NLIjk1puybRPELjli_OKkwe-svTExNIjmvYEIvpmC5iuhA-ics6ePf4SI1TvAYnvtMoa5c_QoV1zVckIpAIlS11ugmVjdPMDGeHr82ZK8IqNGHJbn-nzRb2j0qU_WCa3-GbuRk3fok2HVq0o4gRmeT7wahF6w_LmHQtNBbVe1n7LKWrLO22ZP5z_MscRcRaYKqf5RerrfwGKxEOB54oAZdmX9GUhlcAD6xsIFj1LQugZh0Ue8mZSsy6vZSDGL6cO26Jm44dcQdkqQYuLTujHLHPh45MuXs2w1KhSTR8eJCFZRg3i0CtE3JXCHtdKCi8-o_iXU4HGsH6Z1nRvZRzzVfanVIz5POtr5PSQXJhbv5Y0LUdsyxvm4nrXPO5KvkzhJMCyRUDUnyQgXtXCH-oZTQk5dxOBtax3JZV35qFeA2H5DJXIBDHZycw5rnIfN1rUlP3q0g8gnBk6KLOhXPai1lTNH4b6ha6aPRguLDDIYCOsOaWHVSoFo0yXo-xmGk5HuVhYrDCHztGz_bT3eyJeqMl34brifgNoSAF5b1Owd5LkxnJlrdtnepEWzOqZJikxVDTRRCsGNeVkTOJfpqpHNmCwezNU8520bw0pHyPbKAUTnTR5brhUcPwzmJ8_xcPSGyw_-8qT9wEDaqJafsBmZTmV95DCNcm2MmsQz309PkCvvqvlhAu2kigA53T05moeAontove6TUkAlfssUJQZGKrp6WxPoWle3cR7ZuZuG7HEokqvaIPvzZB-WCmsMH0byI3jg7yxK7t6kS-My-VPxAdeNBqjQmPPFil7lGw40SUE2Xn_3IYbUoxxmr02jjgW7DpdxSMh6UPTjGjdp7GHQOiToWZpdvAI322kHvfG4TQjImnFJLKo9o5JtwGPCcp1_YFOpxYz09_KwnlOYTp8CkS9N2VTigYE4c6BadWZZyR52Hh6e2joc2vOp0qxuEiVo1D26q_sufsVhzaqXdol-sg50hckUxYkcmFbbtjMmipL-aQWB6T07pNfWE3OTk446ZFO0tJ83p5IPglQHymJDUag62SgbIpyIT1PcVz9wZmUu3TYOM5kYla-J9q10yRMZosF0EQJUE4NqJZTwLd2nZUyg50I4XJZDyRgfmKGJ748XqzEdTbpMk5oqUehhUd7CRcdB6lPgmnqByHrwKQn8IJAfytZh0HmvQ1HDlMZtHsobPqZ4Im3r8DUZliIRorE0o4ULNItEhwl-kskPq_5vE61d3OKwhpwazgx-ILHUiLj3AwntWRUpavFKWXGXdHUp4TujOPG6_R7k-Ky1JNjySSkKntdmvvKkP-szH7rfEo-xN5Cj1GQNOMKIize06XvDfF4HxzgUZOcujaFxd-_8FAyc_0sz62e0ii932RRAv18_v9LlfTcHAkVxvPM2HBMuwGnVZhLVGvRWnA_lmFMX3O9FiUjssvNHB_UIG0l2pd96PP43KkxyPUAB6Ah2n_pb5pJLezQ3BD-gctdL7kAYV7WYW8k2WmWi8aJNIHGuxDL0pA-8lYY727kz-UTwvFtijONKXqrXQH6LIWYnUN5WvJPHW0GnY68tQ-gDK6f3s7SmsZQ77sOKhBaCN9MmX-bm7rH7vyC9NsctzR96qU3LZbDTrp_zWLBvjEs2kTjVtYI_CQ6zPy7SpUCthhclibKLH-6vemmjBm3jF6LKuZYljXlZLb0Q3XKIdAjB1xKW6Vc7hXPK48Sp2u959lFUwqtLs-MvI2YRsxyMm4C1ecgPWcJ7SoyFQ3KAThzXQtDGW2TnXIcEHw-7tp6ItZ04TXRfAQBsdKdQ3kUsYhA973BldVw2b19SiorFQ0KJMtHTqntrAWu08sQkQx13SS6j1yk2FoHswGfB5fcTrfuwUixikkckqmtZDo627gMU720M8g-Gh2bcDuPkvJuHwBAGOsevsnL7KrL-kGO2Egdz396I9bq7Qpyd-v3HDBd4jUbWV2-sdsLSMBfY4bokq1Sph2ekQvBBNQUheu6PdQyG2xHCKHoHvZkrNZF1uvlvb3ybh7yioFcgSMdWPLZQ6-Gh7ywQ2Qe_iBe7Zk5LWlbHCZlodHP8PKWphb1pxW6Usl86FGpWy9EvD4X1H0GJ9V4_PPxEtBeYO0sk4PKaCnRCbFHTwpwW_c1Ke-bNH67YWeRZrbRM_vtWzm5ceiF6WTzyYm9MFdj7ffFNK9Od9ufdkcrSV4X9o3GjDlFQeycNtOcKxxy2q19Uk1RmHyfinGStgFycJ2ubLJl5FtIQhdwDOvLx-IEOoQCAtvbPz5fL_ATDeKQlDvazgv99_1P10hywqYdWmVDljFYHwyUb5xJi1do2f5sdKbEl5cKvrVHwr2uh29elpv9eIIovU7rGbcUUzFgVAwh3WkKTlwUo1hrwq5ELca5g3S2fLw8DlkQlU8z--ey1Al8yshLYPoFyQwR4z9JxPk5Mmku-op67tkrh3-Wdq99rxQI7tCbb5fCpnmi1OBxwhE-sbo5L788v_T6WMNdeB2z0nyDJDxq3iOVvRxs-TnkdBzxkFUrjIUx3fdyGow8eO1aMYRlB_-ShgAQlxhi92hh3zJjq4AZrgcAH9x6bkSuIijtQY6CTZNSmc4QP9YYw_ftJgnKY7OOZCXf7qwwWC0LvfcWqJQqMQ7X5USL94x5JZ9icEH5q4-keBnrEAl_6btfjxm-FoqsjEKSo-6xirGPJxzCe7FF5vif0sDdtelEtDUUGrDPt-2RVlPbCVgXkNeSBIr7oxSF0PpYVKtj4LDPrabvYuPM_zSYB6XO1AM62xF35JNQK0sip9W2C46Wh97jLLWbp2xlRW5hLTSGjsCW9N7XIkRHDC6lbi1bILWOZntQq9LwMnal5cyohflGkJZZ007nC3SBFBF3U5oeLiNROsiysYaB4sm44pQF3UnPKx9byKwNh2EADcPw-M9jKZjdQDxhVc3zcQcUABzNvJ0iyb8TposrTMZnQEtJtLVuQOeronOPNmw-ijxi6Y6MLVtAISKJkuQWyd-re7oHUOTs2dQKS1symA-TpeW5V2l0ZB3r0UdH5YIjgX1WZQeAWTNLQ07IFsrZrnoxlXNlPrKILVCWWJHnCJ7XO-wQf2McsPkMldGyjfloJ71iOeI7yyY35Yv5WjhkwKbgSEl7pseO_K8vXuln1HWz_uNZiOTQzJY9lVZ2ZWMS8S1xIfCKF_beInd2OLu5jRAfzn5vA1uG1dGJMLVXqk2kXdPG5IKIJvv4lEl1mHLYYHOpd31_mg48wdD2GdxrKADDGz8OGoNdO_Cm3cGGOJjQCtU1UNoCAG9XBnoyOvJDjd0LUBl3T6v02GgIgSlNAHXgu57j69eyGSj4lG_Q1rhDN0dk0Qb9TEl-HxHPI70biPlHNcD4aCo3vpcozRfSLYrwo4a6M-HvVhhhkoc5Hk1yLWEXYnibohcuIlSwomn3FmGNPCS7WeWVNDoOFptka-gRCI3wF3c_EcRpCdVcmTK-KqeGl05eZsfUDAChhlPoL6NaRy58F_NsrRwGi0vxF1z_qnpLsV2DpLz2pE4ZstSuWttYKx1WySxYzcN1pnz-iYdBDeCnQWkZH5M-KefA9nX92F1MZLfPJ67h3JeCjNpNgF-Nau5acGsGgY8FJ-2Yt-JXyAFpMCX9VvRStRj7zc-tgfU6zbStPZy_7DVa5Fs1BGKbtQBoghyV8AngATVHmO5S_HmYr7T4u9mr1N6o31uqpaycWlfgyD3uzzSDrcqfAH0qfJl1Yds4OQwHJ2oLE2e7vXbC5agrNSYpFXb3HUO6aiyiSw5_PQAlt321JdiM9INeAZx3WdfqxYWBg_fFhcXYNIv-BsGlPh48HWmvax_6zZBdjOs9Bho3wYPTaiJ-V8D7G1-D4D5L-FpCSP5jiUY3bdX78XUcrOnVDJysOCD6wLD1IyMcIm-A5UovV_hnAKSA1JtkpyyxEwigi2Vm3nBx2ucoHv9YFImbSm61to2yZZG1R-_UcPtLRB30Dj69w638mxEvcHk1lQqgOM5mFMPgUXkhCRfUYMuy7Kga3pywcQ_X8xYunQWUtqMMHZw==",
+      "status": null
+    },
+    {
+      "id": "msg_0eaada06d7759d0b006ab274219dd087d28d39bc8f791a3f90",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 542,
+              "start_index": 439,
+              "title": "3726 Harrison St NW, Washington, DC 20015 | Zillow",
+              "type": "url_citation",
+              "url": "https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/"
+            },
+            {
+              "end_index": 1380,
+              "start_index": 1277,
+              "title": "3726 Harrison St NW, Washington, DC 20015 | Zillow",
+              "type": "url_citation",
+              "url": "https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/"
+            },
+            {
+              "end_index": 1772,
+              "start_index": 1669,
+              "title": "3726 Harrison St NW, Washington, DC 20015 | Zillow",
+              "type": "url_citation",
+              "url": "https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/"
+            }
+          ],
+          "text": "{\"address\":\"3726 Harrison St NW, Washington, DC 20015\",\"checked_at_utc\":\"2026-09-22T12:27:01.144545+00:00\",\"zillow_property_url\":\"https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/\",\"current_status\":\"listed_for_rent\",\"current_status_explanation\":\"The exact Zillow property page identifies the address as a “House for rent,” shows $2,000/month, says “Available now,” and provides an application option. ([zillow.com](https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/))\",\"ever_listed_for_rent\":\"yes\",\"rental_history\":[{\"date_as_displayed\":\"6/2/2026\",\"event_as_displayed\":\"Listed for rent\",\"price_as_displayed\":\"$2,000 ($2/sqft)\"},{\"date_as_displayed\":\"8/26/2024\",\"event_as_displayed\":\"Listed for rent\",\"price_as_displayed\":\"$2,000 ($2/sqft)\"}],\"listing_scope\":\"unit_within_property\",\"listing_scope_explanation\":\"Although Zillow labels the property type as a single-family residence and the listing as a house for rent, the listing description specifically advertises a “Bright Spacious English Basement” of approximately 950 square feet, with a private washer-dryer, full kitchen and pantry, and a separate/private entrance. This indicates that only a basement unit within the property is being offered. ([zillow.com](https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/))\",\"limitations\":\"The accessible Zillow Price history also shows a 10/7/2024 “Listing removed” event at $2,000, which is not included above because it is not a rental-listing event. The accessible Zillow page was used as the source for the status, history, and listing-scope determination. ([zillow.com](https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/))\"}",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "external_web_access": null,
+      "filters": {
+        "allowed_domains": [
+          "zillow.com"
+        ]
+      },
+      "search_context_size": "high",
+      "user_location": {
+        "city": "Washington",
+        "country": "US",
+        "region": "District of Columbia",
+        "timezone": "America/New_York",
+        "type": "approximate"
+      },
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ]
+    }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1790080036.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "high",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "zillow_rental_check",
+      "schema_": {
+        "type": "object",
+        "properties": {
+          "address": {
+            "type": "string"
+          },
+          "checked_at_utc": {
+            "type": "string"
+          },
+          "zillow_property_url": {
+            "type": "string"
+          },
+          "current_status": {
+            "type": "string",
+            "enum": [
+              "listed_for_rent",
+              "not_listed_for_rent",
+              "unknown"
+            ]
+          },
+          "current_status_explanation": {
+            "type": "string"
+          },
+          "ever_listed_for_rent": {
+            "type": "string",
+            "enum": [
+              "yes",
+              "no",
+              "unknown"
+            ]
+          },
+          "rental_history": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "date_as_displayed": {
+                  "type": "string"
+                },
+                "event_as_displayed": {
+                  "type": "string"
+                },
+                "price_as_displayed": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "date_as_displayed",
+                "event_as_displayed",
+                "price_as_displayed"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "listing_scope": {
+            "type": "string",
+            "enum": [
+              "entire_house_or_condo",
+              "unit_within_property",
+              "unclear"
+            ]
+          },
+          "listing_scope_explanation": {
+            "type": "string"
+          },
+          "limitations": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "address",
+          "checked_at_utc",
+          "zillow_property_url",
+          "current_status",
+          "current_status_explanation",
+          "ever_listed_for_rent",
+          "rental_history",
+          "listing_scope",
+          "listing_scope_explanation",
+          "limitations"
+        ],
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 13845,
+    "input_tokens_details": {
+      "cache_write_tokens": 494,
+      "cached_tokens": 4439
+    },
+    "output_tokens": 1091,
+    "output_tokens_details": {
+      "reasoning_tokens": 671
+    },
+    "total_tokens": 14936
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 1
+    }
+  }
+}

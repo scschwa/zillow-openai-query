@@ -1,0 +1,437 @@
+{
+  "id": "resp_0147af177ffb3d2f006ab274469a7487d2a7c3118f31702651",
+  "created_at": 1790080070.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.6-luna",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0147af177ffb3d2f006ab27447c3c087d28b52453941ccb45d",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRaa9vncRAqg7jtKuWt5RMTskR3m3QRiYUV_VMJHxtk5Ig1nvzTJs6VwINa2sjFE03OWwJycd-4Cnrr_lHAQX86iyzJ5ieWGC7GUwtlNXcxyJA3A9EOOjV7WLhKBNFwNk6QnqUA1WcVFckxa8ZfNuMmlV9NSyJToA4vGgWuaVD_bMovJ9g-H6lqYUK86jiZAxOy46_zgB2Sz-tphokilnskX_R1nCUXmYYOgm7SaAHh3fPuXF1RB5uJ2aIYPcUINjKEnwnKgdPNr-uSm2ZQixUL-yIM-CGa2WWDLGhu3WKpkcD-Kze6gauZXUIjyK-5jxV7F_XVR9eF4bnnTB-1ECpEKmBgpKPwtKGLGwug3NEeSlplCGMxzQq5fU9cCJHZ4hZz1rY94w747wPJuOiqUBwKQxImn4R1ThS9o4lzgdwlxMaM-vDxBV20hTzp167PWYDgwi2-3-mkp2SYcWRc6qzLB46wCAXmPnuXUf1ZrFbmkdNQAbsSRZgdtCHwyHceu_WyzfDNCtK0eK6ZRz_F5wIvL8Nt3oV_pi3Q30EhJ8iekJcv8_dV4vSwF8f50r42qJEwVL7UiJsAe8PcBTJpbQDMQSj_vp-9DloHtKpC_uOmdDi4fJSTia0OpzzKhrMGa3RFE345_zHFkzt9nJoRyKaF1KD0AwyRf4peafprzEMfz-RaR0ounB6z-jlpmD2tjYg4Ul6-M6_ueqBiGBZitq3zC6Za_bnf3rD4qMaR1MhhWj54AxUTcwgmO5UJaPoSAsPe2rpFyesI7PHSnkUEFJUpKIfDUfMKA-euXdgs0Hhg1wNjCEZeMFgFqIW34PoPDjGZBkL3fsANT04C6dJK11LyBaCTwQwT-CQ77L0gVH2C54Ce9zqlP8wdZXF_3m9m7aGTjld13AmPCxGn6c01pNlLwrF8DZ8nCLmmXBW_do-aJLn1ffEGSHu15osm_i4OQlyZE3IcQEEcuuMJAIsdtxieQoC4D_1UNj--1wiqLVrTcTEH6qgM6D2CcKUyqiudWMeMx4xDT00hye9ybPO9jCkKELZ2e5Wi--rzZLi-8K_EMLWKYhdMIhCNP494XDxof5y6drY34E1q-QJO8F23xo4fBMjKpUe5l_pNyphqvJWxJqWxpNymLjV8vl40yaiwbDL3keotuIl9qEy725bXZWB4_zyooJL5JgBT372oPunbbmiMZegpTHmnO1ludJ6Y6pJgwS04RH9TQOEsJTY9u0sV7Eh4FJNfxcPa4Az_WuPVh5XQEhzSn_7BBgJM6oc1toqvk6yhTkMgNWGQBvI4Z2-3P94z9p-RSH7Xx9oStdS0dG4hiiEFDx8jWTns6QPlB4AskDd4kYLeblhaQ8Q_59VlRaQMVJtl8QuZwx9eORETMZGsfBqSCthT3oQ12FqoIaKz4E7uE4x7F7nvaVecBuzGCKRxNyJC8LCQifJvU_dedfA=",
+      "status": null
+    },
+    {
+      "id": "ws_0147af177ffb3d2f006ab27448356487d2af5aa335bef9a8e6",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:zillow.com 3715 Fessenden St NW Washington DC 20016"
+        ],
+        "query": "site:zillow.com 3715 Fessenden St NW Washington DC 20016",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3715-35th-St-NW-Washington-DC-20016/454839_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3711-Fessenden-St-NW-Washington-DC-20016/449459_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3715-Appleton-St-NW-Washington-DC-20016/449558_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3715-Brandywine-St-NW-Washington-DC-20016/334523977_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/browse/homes/dc/district-of-columbia/20016/10/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3715-Albemarle-St-NW-Washington-DC-20016/449555_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/Fessenden-St-NW-Washington-DC-20016/183018218_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3715-Brandywine-St-NW-Washington-DC-20016/449530_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3715-Yuma-St-NW-Washington-DC-20016/449634_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3715-48th-St-NW-Washington-DC-20016/438329_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3715-Warren-St-NW-Washington-DC-20016/449682_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3711-Appleton-St-NW-Washington-DC-20016/449557_zpid/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0147af177ffb3d2f006ab2744967d887d289b8673153396b60",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRaeHuvJBf7awEpWKb0YhnvUYk-6LyJ8pf2QJo5BZk7QmWadnzIGO6TZ8NKMxDLags219FoiB6_RRh08ex7kPTmaP8dI6zWNV27K-Gg2L2vMvr5gypzs16LgL674Sonuncc3NsL9Wo3B-XSQfTiORfxDcf6x4-NKT01G4WJ9ucXH997WLBVkhJJbiiD_qWY7RV20p3hIBwGBd92TBxYtz3K4Lp60zodlkAqV-aXhKlbwokWpF-0nw2BwGmHSC3refe71SHDP4s--KPW1IDVdja5jpaihcCP0RlRvQ0NGUS37BStoXZBRA0YdJXCvX_9_4_T7cb6VUn-O0vOvKLMFVN6DPEQ1_W-IpULknoUjdoPOQ2Hubu-2SqvjqBhQN4OCuaz0T8LZotWfV_LNmaGPmM50QaTRMT4-ueT-JEsEXfg_FexGrvvb_zGWK1rigP2wLYSjlyqsALbTA56awoA4QBeF6A00WfzseA48_u9rxTRvLT7NwUzO566tzpkZxehOaovcQ19Xqd0vHngjjwztcIoxSs3LNq4hfm0s8K4tAe67dZh99ii8PX6u-PAPGSk4E3Hkbt1gdC_gkBrn5JFLva6rw6EvjBTyPHu_CI-3YtZc1u7Uu2HBPGIdp2P05APTzijs-m1Ev999BmKcoayFdKWX5zTJSmJ0UB2obyIlDv9XljsOk9XeoEXW9vcJXE9AO4to4GG6vc7Hr1tUPYyaYcJrDKYbqH8n8aXDIrXyUegsLxYZhQOXxtNL-0ah34gcqWWGNIeCtpJ8w4566kJbgcFSq_LTDUIeTfiQ8_B5Ukm_i5deqYRxponp_MfmGNoDKoRKAA0kZDMul8Aux1Q-HBLsmE2gCogOdrC9yhExvmp7dW2Zs2tShHkLw8BLoXwtYAmbukNHuXVtFotub3chN_9fY3hIKuooAE4E9ta2Wcid7lPn9Z95mQfDWA2JaHJPYRZAGTTjNhDJZaszrERJCBfJucr4kBTETy-d8eppvyFGIglsWIo5aqBMhDPflIpWX-0OC41YQIZTcNkuh38l7QAdO7Kp9y3P5RPlSypVoe9nNScR3xZAPyCWFxFlf5usQVhovtwz5hScnxCisk6IFiHAQAcMo3rmPeIAZlKlgurH88XiD1rzwmD2rU7n1QnZshCxwaZLXP0cGjUWe4TwFe_9n8lLKzff-p-OutjjaBpzlwluH8n7INXow3SZk2qran09LZLSRvCdOB44pPRendZfKKRxIR-5b55y5FIpuwii39u94BvAxrcdnNMV-NKy4CLpxxPjhy3E1RwLgGLnQ-f2ilsZNU_PzNyyh-gWfzheHKo3kaHjlUmb_wZ3amdNlbrShoy91uoy8soOZ89jszXG2n8cl3sb7ruBktkj2jWiK7ems03tro9wUVfBNve8R71FpHuYw_hXorvQoBGroDRhQWM2GXpkfWIdZW1VJiALpuavfjz8AiLiqnKG1k_RGD4QySU7U-P-PrstJ99kS4YOgY46wZowEF1Ee-FPpzOMFs25zI4ofYNunRIn77V0p9J",
+      "status": null
+    },
+    {
+      "id": "ws_0147af177ffb3d2f006ab27449fbfc87d2a9b9f38e4cdf80c3",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.zillow.com/homedetails/3711-Fessenden-St-NW-Washington-DC-20016/449459_zpid/"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0147af177ffb3d2f006ab2744acf7887d29318bd264670ad65",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRaNDvKxaS5WANR_Zc4rmHUsD0nxQswPUIZUhwA5ZaEKSlBqVlSJM_2abRfZjlBbQ_bxHYlj63YvFt16SSWK-mNxCvXo3oqugWgDnzBvHQpuW-q_NyUYh4Omh9bO9bity8FKW9aj1yKJPYOOteFfcfCayeeQQyX2WRQPGsdknbW1rr58SJmISh-UoU-19-H8LnrbeuJZA_vzrDEYGcS3oFub-l0iM0SqtWqlypkXiDD0EwzqVeZC3C32tea7l_n8DCtqzJnAN6XWB0N0PV9ZHr2QEfWguQb6pLUzUcdp_dX2rx--KhoGSMk-R-KNJjFLiZgYKBkANvrd7NxvelfhKTMOLjesT7nDRNQhLq4uHog7DduHiMvnQaGjcpMihwAAahrFhWnHZi55rfNgi3vPcR-YBvwyfH3lBNwymkMl2MY1lQXb2V1me0CsVN0rhelu98BjnHVVqHt8_7ozkVW_sTwPvTgeNfUaLpUsv9plRGcXRb3KF5_RH1KNegsS1Btca2RM264DyaxKNTtE4z7A-X9S6928mofd8PqUsqXKj-MpBSesDtjg0ol32KgNtSrKhHYSpQYEHAzHcbGfMwDt8cK4Thiejz5YMb37edq_eslI8VDlr_SjbgBW860if6S0dbSAHlRbmoVv-k-YRKKJrC3BgUrQ2HAFS8PGYWHwagzNl4Io41E0nsUfzRvdWMZPfseqvivDdCZeciSKSkLIFufjSumhViGmHc7zADGpzG90dWdWehntvJ4CzGcwp3KsNy7B_NhRtK0PytlgiFT-y-8mKIjCIvvg8upfOXRRBYl-gWrLXJQrrFcIMA8Fz7wa-kfR2SDseFmDcR7BPqcnSXtPIyJSmPrN6cwgCTkqh30VT-8FfWdm2fEySHtPfOpfvAqfhJqxMU1amy4YdiucIzWtQHdJwG5wkla3cM5H71tUIMDWH4KxVX83xjpMfFxkDOYaD_tuTIIDIotSuJW3au6lqR_q2OOKVdvh3lpEEXaH9Ldf31-kcvatMkpINu1BBKBOjo9frf1WlCrkOB1yLbAVUyXkd2z14C2Z7vpDH2dqaBLhLG-MC6zcYV29Vdz8HuURHY3J_HijdWtTNY8q-ZUfNm9MIm9uZ21MVtKbOlKXRNAcGDA56bupK_evg980PlswnlXFO-rTlmw6kUO5xWRh7qeOv7OgSudeXOwr1xJn3c=",
+      "status": null
+    },
+    {
+      "id": "ws_0147af177ffb3d2f006ab2744af2c487d2b46d7bdaec50823f",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.zillow.com/browse/homes/dc/district-of-columbia/20016/10/"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0147af177ffb3d2f006ab2744bb9fc87d2b6bfd6e7f42823cf",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRaXxvOTbpLRhn6ODmsLeGm_FzsBOr_oE6yhDOiqOV_CTI9WFgZ09nbAEoW2_AzWL12b4WlWxLphDjWtaC_w6VDMOnTObrhXeMgYur443sck4TxnRI1TuTVcDSmjpMXkilcYpTZA4MWNkhmcVilZ3dItQ78kBY8qwb6SEV-lj3U1k-R6MTsF5Bc7ifcQ3Fffbt94mhevdTpLT-GGwYIJh8x0KoOfVnlrLVWYDxC-3sc-bLVqOldktomKE8a-Tc8Lc2x3BdWhYFrCikpJLpGtd-2KloY5SltNIsYDsOAuA78OLWnizwtN2cH5hHd5dIZ3bd5NTpdgboyTZ96jajd_K5_ii_AUDz2N6kGkpLaLfGOZe7Mt7bo4uUp9-wMKU_9biqvla6j8rtGrGN651Rx3bBsAgQiNj3vG6teANh5G3A8V0_zLbp1MimAYUzR2BYvdQjrgM3VuCSXVwzrNHNx6MHTXOS1VqdwFNZ3jNJLEjMqTMs-2I0t56ELxnaS3kZ_bc-mAU52XqIiP2AGyXBghxHuQ0-lcIH8Ycmip1N39haeq_tAUiGVERN2cEbjRJstihpsAtyHOXu9Zzmy8iHDyWmnuR8zaHnqicQkUTDldfc8PtB9J_ICnbtSnF4cFD3AL5mekTVrWw589CtdNf3W8RtAvrUUHKHi1bIFWHuia64BcuQaFYrCYVQPPqPruG6nu0aWNNx9xeqcoGewFiS4Jvohe3yt-_LMQv4lMiFYq96Dg3ljbh4TmOjikPpjeFRmjjDiU9gVCrX2REKNB42E9uPeDIHmtSTFX5uL0HpCKFTsa3UitXI3yNrrYszRofIcl7wz7Rk-wQj03XYF3uqSO4ezfd1_Oenk2ISiT4gO6xa9zA-RQy4ky1NIJbrV8Gp-zgGjidKWJAHS4PYfCt51lmpiMJCN9tmARZ2vXK7DLjtMF1349F6cpfJ6OaPACHKcMxzQkMr3PM87R44BPieDHPZet3tox0PbZukI1hh-jXBfYPqc8Kkm-LJOOPuvutG3TpzOBjCrVCUTlD-2zzFQvKvhVlqPTqMc8fHRBfY-Z5Ewc20jeIkBEZjs9sQy48tWMfJu3Lr_zo2gFE0VZMrboNuVKtYN6xzu8IzngjCmm5B00OCoiMZyoDmiXQhRpv6WGy2fkkqhWcCeQ2dbdwpODg0mmqGll_rWVZODUrGqiQkvfG0fFEoTRQtutPNxZE-9cD_vyHr4uxGAvuNoaSj2BSTh3cZCpDIUZNKrRZBtzy9Z-PmSGLJZit5YYykDUX1NmjN7V0iox0wLfdOdxDABDt5X5zr1-gkDgQznSIeoUHyOJHufxrI4rXlWV_ikWMbDsMv-",
+      "status": null
+    },
+    {
+      "id": "ws_0147af177ffb3d2f006ab2744c170487d2b99f2b4943bff51b",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:zillow.com/homedetails/3715-Fessenden-St-NW-Washington-DC-20016/449460_zpid \"Listed for rent\"",
+          "site:zillow.com/homedetails/3715-Fessenden-St-NW-Washington-DC-20016/449460_zpid \"Price history\"",
+          "site:zillow.com \"3715 Fessenden St NW\" \"Listed for rent\""
+        ],
+        "query": "site:zillow.com/homedetails/3715-Fessenden-St-NW-Washington-DC-20016/449460_zpid \"Listed for rent\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3711-Fessenden-St-NW-Washington-DC-20016/449459_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3715-Appleton-St-NW-Washington-DC-20016/449558_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3715-Brandywine-St-NW-Washington-DC-20016/449530_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3711-Cumberland-St-NW-Washington-DC-20016/449505_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/Washington-DC-20016/437292_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4107-Fessenden-St-NW-Washington-DC-20016/444655_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3718-Cumberland-St-NW-Washington-DC-20016/449482_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4403-Fessenden-St-NW-Washington-DC-20016/439371_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3917-Fessenden-St-NW-Washington-DC-20016/445263_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4415-Fessenden-St-NW-Washington-DC-20016/439377_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3737-Fessenden-St-NW-Washington-DC-20016/449417_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4314-Fessenden-St-NW-Washington-DC-20016/442758_zpid/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0147af177ffb3d2f006ab2744e35b087d2b77d4a5ef4c2655d",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRaQ5uzg_--XlWbLu0ctZFCmvxQaTtt6Xd68FODW5K-MQ78rTcf0_OkVQgo_o24oTAkqCYR4SdnQrbLi-dnV1nbyEuahOqzQIZqZ0UBoxBRVvNqRcAZM8kLQGQK_5sVHf6PMzgf_fbgb8kNWx4HD5ttllE2xzRDvo1nXpOtzKIFAQywm4J5nixM4iL_f6ftAFUeaYBO6Wyc-LkNFDCqTPV0tneP3IFq5oaNJEKBJgpZg76_XFmkKlw4w8nRCGahIjWJrHK3pfRQiFO5i83b5-FCMCWz70Xf3qRFgk3speOD2eO2NJLIwETPXYagwdfWK_IPEmHczOcC7YCo8ztF375NStXkUvaxqiJEVMsoRLYIIfrzkoVsvgwC67Cffrk54MS_paQUS1HL8jD9_0kMh1_CEpI-Sh9TB0zoafB936CiPlRkcqRFQOjIKLLQKz0cYX7F2Ta2TKNIEwqxzSFxb4G8jI6ZyHLG0cDzYigPcDlzBMRQ6xqbWNr9igPpjjUtn-MXrz_2Uj4d3an-Lca7WaroCrSCr6xZcWNIIyXxKK1i-hWNwfyYVF8Dr8sVGpUMoQErbHjE7GmnbgzEA_t-dCh_QY9Gj81ujR_XN7i_jEoKDq89HZXswl_wP-wwFRAJJ-XN5iJI_BwJd6SEQWFWQh7rkX08PgtZCFKOlybweSS988wF39eF7GipUAl1DOOIHGnQLk0G7wJnuxEGK3v756c8oeRanSVJ-jBeo2cNUCEVocfCBHSY6c9xR3AMBOaFvhhFRNt1q3POAr5-dje96tdCx1ud1hAqHcpdAqoc5COgj3ycwWhpgHYZJ4j3ybe1sqoloPK0mcZhv7njrRWpqsrwSGfkAFvW_2o925AMuSb9mvmE1kzqeiwYvTpKQiSeQKS6wzU_GlfxNFEqfIV8G99TPgQh7BVftLHflsH7A4tq2IRZ4ir2i6-SdiDm18_-wFxCvnIWssAf9DFR_9OS6zjw-RI-jd4Z7TyNqOkR2glCWTYvrIELKpfj_HfuL2IsFA9ph5fo45vZ013Lj4jmw60uxGDH-A45TE4n7TcbS3xx-8OyPBXVPZ2nJ2xJf4G_RdCLazmC81F8lwoFzjeE74ATOOhqQkX7kLJ3rfToMBKsPb9sLsCLnC45CsIjWIVRkbomWWbxmEfCSoqv24LVyiOR2McELPnsVXkpCA14h2PL24LIQMzFu22YFIE-brMo0_-n-XFOrJg1F57je1uzxR6_KMT8TbqjOm8El4TcVUd_57CdoCs9iw61FR5VNtO4bBX-3ARm53UTS442A7UEMkIr1X3zSUKIRfu13CIglneVXnNaDDQTXnpVfVx7fsqt4MUJf7oNlXolxXgBcZFgygZXf9CvN2kYIFc4cq0eRZ28W7LsNk8Z3ld87G97uFr-jHemvJC4svz-q47PyPkNfmtjO8FprtiJQCkWaFQk02lAjdavzxK00im4GRZJKSiqg8bUiW8RlHdGlz9I1z_VIk0WJd39zdHgl6MSSnFnzmW5ioPkxNSZu2mBcYiPgAt06ZHMdGTWfnnAF5-QnBVIUir6G7-OvN-WjzB_ZEZKKoHSv3nO5chkQILLcs-omIAgqwskhsQSGq9AwIYxditfYriQ5qhPUeaZhOOQhx11kqDix8JfdWiNSnk2sQpPiWeRq3gU7du9v8wp5JYDUZCrlx4AdmHhwPff9ugQhMdX585NQs5hA62vEnYwW7IqoX36C4xIU4J9j2uiKi04IcVhMNUcUDXu9u19EGVtwsFoZEGwsLvFLjmRPK5a6FTjnNnFPQV3CaCM1aVt0ySbZ4KLKiE7hKXOP_1b7gCMvAg-So3zLbPqDbYtcJ46cgdFx8jNTWRNjc3ORzp3VWXQHMp4-MNOYiUh0Z-VM20SknVNWnPadODPFiOYfc-IDDbBAOn5Ew-hn9_OLW8pjbYScvId_mqb3bgjQhd_xTMBaUM46QOAYoL0I8NtnmFMVW7_XFmoj3mpDOKJWjuMBw1d4uotlwcTnzG_kfTEJJuAtUIvRgGwIfJVocfhqCMrVFLiBgpJI8INPf1DYDj3I7_qfijf7ikrhrFrRtMyEwCxQqWTyyYaGzpH0jhoa93_8lH3HeUHjLB5f8CKkzHPu7EOXcG6kpguD92EnVc0wlzenQECoGVtp1l-2ntmw6w6NIdfP-LdNSI2kHQP4v3fU2229l-t8VUA7KTy3tUWO2zFn9VV2QvgfsyUuf2RTOEa0wgBaKJRCEtSIGkO4zLUDm3FIx4vA4au6ttWMYMuo79F1D2BpMv7etUq4QlVZNFF1w4IMByNHlBGygWWSXeyRJ7H4ngaecQ-n5CxWPXDyFuP0soNENdneUhu8fAoipE7FFAGJomFIjHwSMPvTyhdTtuNYm84Q1asZvZDh90laUI-PcUY7r2AY3G60smPY172J0CK2PPZQWeor5-nIdjiaVUkZuLmZhMJRroGSKffCB6tRAUaaLSyPWDy6-yFhLbVGEoxYSaYiL_3zFMu7RQwJ2j6YR2PazGkgvqK9EiPiQH1HEWitqLbs0cRspNvEmr2JGjSchUenAEhE6KjEHirQbqRwXbix4A1F_zjupcGHIPljb0_XykDeG-keHxJ7e_aAVzLly73oI5stTkbEeEdChW0NR71p7xdi1HUTCSIgUTK6Qxq81gBPOap2zkjWHIJx3glVyERjeU4uOn8mrbcAjTMUq2DI_80YseMsSWHUc8IGJyz_NlKXqQ6RZB6gU-SqP5MAgMMd2FCkuAn58BgjPvKPe0MDub38i9yZaq1z1Ti3vpA18Bg6eotZ0L-IPU6Bp_I4XLrv7EZjvwedqAP5AsPCmzVsA9vcLhN8ABkWfVxlv0fQUsYM33A3qoWJvGoYud26IhJ3QxImWRVcWSes9oxzade8mUMApFTvj9iR3Xtn3lRYgyLyQF7FrpCpNOCIxYjXr3ztqsFurIF69epDtiDAr0ZDxGXoBqxiJnkNIh0mEok1qrjl3h4O8iuLNantPXSu13_qXNVK6gaDOSFYQzmlQqn0wQ9vaKzWw17qROPKW3b9J-pJWOXjUw-vzd8kogIKTBsMYIUWbMVS2YHw2lACAWuhPEm29co0K0Mo07O4SfTMbyggsxxoKDO2wHhbA3hq323k6_maB_I6ApkWogcjedvaVecoTt31kOOC0wjILvZertk8a3XttH4Mel5TljQTU7Wm6gytMIkhGAraV-DV9m-cGIFelolcrjk6vIaJmXSEOR45EeuGoWCldaAaTXSNtVhwn4K3Ra5u9MtgKfde5OhnMnGCs0D56loBBy-WE84Ya0WwSRHAYZfjucJ23yMBCVIDiRZwVKViro3_HUGpuoKgmVMPXDdHdWyz1QbMLeXWVR16zcmS0qtj6796VOFlEElW1bqDeUt9X-AB_cdnTi9B4pr3hkSmAUXYYkz2BOL2lGD78NVde0P3-SjCU-lrhiqH_D6e9sJT5PC3dzvfZKizOIkEiMAtQDiVExPL2ZaCme3qDbkgmv2jzPPi5urvgCe3hXkt7jlS6CHURbtuAMqdJEsBiixgMW43iVAVJ5sXYAdjLTz1wvfJi5Q1-VH9-DUHwMZJWw6kJlNXuiQxScUhlMGSbpO_Z9lY5Wm-d45aBSvPcQf1RGSCoOnliAaC84OrYeoyrln82YtjRuo3oRQFX59HobcjwAttQkVproE0dnZ5JjCpJHhg81GFvH5T1lhSxYgkG0shlGzmeWEkF-QDW3ivtrwWEdetiqBA1P2GM-HYip7iHxoAtJBr0JDTHnCJM-_P8pULdeXRy9ZM_oBBt8E3x6xBrJTjDQWtcYE8jt0_dt5ANanWkMUsI2iZ2ZHBCo84dVE7tx4h9Nd1ntKnxatO1G_EJNolOs3dyVpXlKn8nRap4TDswbX30xBj39kZb0JiMmWXPLKieMHKFM5DfeAmXjSSQk8apTsNoog0kTDutZ-7plSuOMX0-szvGlReL4ss8hUS1GDqwED2InwcIud4jHbREfmsO5r-vFVowKtVeNePd7TyH-nG12_enNk48jPfXty8sRe92mFaSC1BceEUyP7IMDmAIm5ZJ96T1bKdeSigOQShFYNMhrhPkGddVnyEJpWRlMR3F2d7qNN_vDmUDujdPEAlz9hfcbXxvs9rGJkFv8oD21Qe8E4qx7lc6TvNjRT1fmfgGDo13RVudjmonkhMhAenhSP-hAeK6Ql8mZDFZwPrtOyNZt2RCuf_OiXe3SPvGfAIQgREkpsg9vsR6lky9tRhv6Ieq7tLLWk1mj8icmlGCHOJxofqimStzfQl-DC8zZzAP-zxHViDvULjow6LZy3I_gCm_ZQvexnLJgEDH4MWMVwRDMG4y_pctelZUG6EJd6dEsJ8QN82tFzpi9u_7ni7bDbxlFyr6A4IupaP65-abXxJeGsrqNesr42hbTzbojhH4JUzqjOMqZy3TyMB03rs2BSc9Am9GBpejrY0EzO_rEmH0VxqNCoSBTWMMCJP0oKiYvyDB0U3eDYAXpo3Wlvm_qDJXpuNqo_GcFgNEC_r_8NXX_dvM4MBq_YBfhqjjpKVFBialMZSg2eYNlapUVN3DDSFYkvwL8svUStOlO8q5PL2wWRtBn_e4bOoCL-lrsJ3alyjVY3m6WDtg==",
+      "status": null
+    },
+    {
+      "id": "rs_0147af177ffb3d2f006ab2745288e887d2a883dc54ddcbdb1e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRaK2kfAuGP-TsFFOjLSlziD7mOd_GFqXcmX0Wt5QnvDKsaMKXmDgx_DQg35jAP6b6rRPr_CGJl91lZWvNqZOrdOH0lRXNMmUFrfTueCdTg9yFL0uWvXr6QdYu-E482DjT5TCzYZqIyyO_5tzrX4SIr1kHWCoGfiPRNSnQTJkzfTrCyyplMdwTUMTexAGK1Ye25OTlkJjL4Q1mtO58N9fWrJCWKnAXr6sGUJYtYx6iDF0tf7hHDQJmBdXPMNpT-fRA0y2aJX18IAhLGtxKa0YHsdA7q_oGidSLMM_tSmLATA4UKyGZLXEcj3Fvzk813oDNBwNlLEs3MMGH8UKfMJbxTq8g0gxXuJevl_qae7YXL4pnET-nNMA3KJ_RF-uyxzfx0Qmzp8XE0iD0Bfe1U2W0NjqJFsZ9bbpdJYCD-pLRPK12UBt2YMo48vg4c9X8yEnul5Med1J3ivdB2llQ7l483kjce2bPwfOWv6cxEqpRiOrppTRR509KiembNK93pF5yJn7HDO77_MX-P9zofoYgzWvPx5aMRBlcrbOTVi9x1mLpxmUQ6Di-24yS-vZteHDk4S9qI5qIahR4qssAeRvMjTG2GLxK-1DPcSaQqUpx_Kv3gBMgvkKEO384Zkdabxb03Hp8xqyS_qfTE1ISFjzHHftz3fv7JN445YLGdMAaF7Iwd_TqZQd41qekBkjsafPRSIC3XjEO0GwDo8Pl_h-SIx2sCNTNmHlhqUS4ux4EZCFzirDlZuVkLMTeV0vqodvMVDAZFBjJYvfuYbm8gWJiGJlQhOsbTFFpofRvuyAu2dhvOcGRu6qnEjX-a0oZrYO0hnXdAx-h9TsscdcjvP2uWc0o6PLvWaMW2loyGAwsTmUh2G4IZbrzOsmgXiukKUsd3jMiPkeebjTY6BeKvAQ1epOzCAeKVFY82lLaCYji59BNoqsikz6pJqWxreqY6sm6d_KzrxiJclPYVRUmGYhz3jt-qXkuGt4mg8F7TcaOCUhQ7LLeAhXn4wT520SXvvptvp7vy_jaA0bLja-FsOyIBKdK7ilbtpBspjQO-i--kuTmPss9CYOs9V6Z7B5zNw6fpzv1U8FU2OqmjuXri8AOTQ9dKt9t_kihAXiI-2VGC7vM3pfBnV-R_w0TogTkbwL8S6eBwQ-skwKxPtkwuQkjeoQLdp1aMB1Th5yZJDLKAdG7ilisvTiP5BWiB0rLiJQEYC5xhGCRW24TPEs6P1bpURlJuT5xa5DOxVqT7nOydhEBVO7vOWULsWnIre1_cWV6z-9ZZ2G5jjxFxCCUc3-NKmgf4Vvge9888r_JN-f_LWV45DXAgvdGhShFkepCwyiWLMPfmz0rCiPvU7lDxtjYhMEHx-lG2mRh3DnZSrnNJP4FcbjJskWw6Bb0It09pSA7sZBcwCizJuCn66OiXgOuBnB5RZ-llQsuE-hUqdSKM0DLiAcjdHMch-Dhm7Y3Mj1yC4pqlQOxx4N332SmwUc9reqhryNpZbbRCm_YLl7MiR60wKkCaN6IQY2kNKpdgAPZg2jKydlcp0FW44ix-QrwBTL3K7dZvqEhN0_14zfwbIzUQiAcgPSABOWMLR68p94qQ2Jlzx3fjg-9AngPK6qkVWjvfWGDxPN4BOj546wc8ZMPxdqWpAKHdRhrpkakm8Sbh",
+      "status": null
+    },
+    {
+      "id": "ws_0147af177ffb3d2f006ab274534dec87d2b368643a32547887",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.zillow.com/homedetails/3715-Fessenden-St-NW-Washington-DC-20016/449460_zpid/"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0147af177ffb3d2f006ab2745461d887d29658679ac886875a",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRaaafCxkWyWL0JwjkZ3aFgXyUqGk2RfdGk1UEh0x3NHtD1Lx3641dNqhKHCqTnssvO7_wCiV_LwKye9YGtp41o8OQIyiK6T7n9B0bpT3v48_uPB7JG_BzZsWWqExYa1krktLgTI1k77hOmQu2LWsohQclEi9FiImuJmqy_HDetqaypMsHPfJ4LVfGqBl0w2RUHGJZH889TBioZCMBH_-2VyvtqZXiTRE4ZL6PekSGOyYYUhr2e3jifBS8bQNiYV4-TPsmwrtYAFQZS32XrZ6o96mfugjmwO4bGrn42EE11V2jQF_ov68riW6m6jKEeAjBIInLagyuBnUqRzAwAEXV331H1KwcV9Ejx_rxlWuyusI7JP7aPNB2rT_pVYY5tqgLxxdznHhP5R5yTaWX7s5IFrR_xusQlOjOqafYTir1CBFs4faf3N8qbuT9vVPtbK7j7TNxSFEf7vNbwM2Tjj1SrQtrQqNkxzeep8d4HDB35P7Pdkvfg9cOS-qfs1IoIr15gkI6ysgcP74F4wPmHVrGeW65k_OMasRN3YiLitHY29s01h_5z9R8lXMvhml0M2dFwfBMmPlhieRhJPHxbCN2WLQNomD2o-OKXoe14H3ddWOvNMhZRj6j3_NkNJh_keMfPY4kq9UDCSm5P2Xyip6ejN2ehmTKcdbUWrzwfyI7_kE9_1RjHYsClejbQdQTgeMNgK4mGa69qHZ9mnjO4t3HhNidAdUeglFagCXE9Yc9h4S5Z5iZBkoepGmT5Ys5zv0kJdypbjsYJfr1cbg4sYVjabugL33-DAonLAIGDqpOv7XHT7SxAHAQD01sNB3Dtz6IFxyip3952DPoEJ3uo45fHKgMpA4MA-ETBKVJWvpZ_jP9cOMV-H1XfbWhcMSeg3TVchsAbbBgyxQ8GAL3xkays9IJtipLtsbp5IUepeofmdMITBPGrzVkEb5Xuc_wFKIJCqWydJIc6gS7PFmosHdiEMo17ByjJeXHvohlPO619K_WGUOZ-dNvUDwRASWQis6T73B-wP9XoEX-4K9w4TNU9tsfiG2WtadKQJbLTr8Mo41opid5QszaPGojA-grDXakGdzDGrHEHWAjl5xCh2y6JFtPdG5YgiLWxcIvhhizdLu3H-3BexCNtNuhPFvyGMxNFsefqAK-Fkqz2oivpu3Xd3_estCuCQc6IY5pvovAyC4O_qNfttaa83s_PkVmYY2yVP8plg5LUclYDvjRWUOXkd8c0_nQiYBv7FGBYqRsUqRWsRxlC1WpEtgUdIwUvau1wxiYPLoBdp0gJdMv-l0GYoKoCkg_XtcW3RQXAqkJ-e6zgYSozRHIlIGxOF2zsNuEZ_0Tk3ltdKRUsrc1TD0GGGkV38HH821ovjZJ9GdfyFGHpxe2obvCPHZGlI6dTvMx8hDkUuURERnSqueGuabDGUeS4uVpROnoDxWZiaBfeWQcnKk5TF8ka3hCmBsBc70UejZ2tAEEv_0BxrBnn919F-AAXHo93N1pzzHFmhC3rKTBnPZ0H7X7ZKt-dFd5ymR1NB4GrZ9vFFhHQagtG-y_sv3PFfcvTCUYpPiYN9wMKO_Mr4xCU6KQAxqtCEv9vY8HQgZ0BeLaZ8EvT_lXKFs8cZPB5nQefWTlpNOoDiDfSw643J4JBxIszlNpsvIevEx5J--_layzOyzbOGE7q6tgrNH-IEAFw5UHK3sJgNE3UhBWtYxD84ekzuQGwMp7GxwkP5W8mwp8EkwQI4dU7fdgzPPUFGVC1u_C3c_qOcAB3_W__6DKyXnJovQKfWhgTjOxPAFrkc7x_MR8bmkfWTgFUJ5uTjbYjQcZiK4qmDGg78j_9zisR6QiYwnnUPm3VsXMj_H07SmkyIcwM0TKWeStA6dMXdVF7smUvLkJzEfvrRyiEn2ZbU_4STTdDDN7qB5U4-SBHNvKqnz2fRe7--gRkHR9hLySwKICwCAtjHriz6JP0hkvJZwYZ6vGDcKhe3X8LGSRMlkJ0wLJVUT7ZpSiEAkJf9LVU2ZPT3OzNp75KvrbehZwBhs-CPzgLpIRAanccmpJWj2om4fgOupUMyX7Iz_DH3jxgNAQLy_uS8bvmaIo6u8ZEWXIy0HiI_YTUTYCPxyknZQ-0XrHYD_tw-qDwbmaNh7tAMyTeiwlUG4hHQHKzJjWU6pgFrNxXcUBRZJ3Hi1-WQKoqnntbqU_zodj7qNnuo3rbnG5ivpDbbdtmdtT0TYCezRmdk_KFw9n4AjnBgDf8G_AjtDQsd9CVXJqt2EOdD-1eICRCm8J3QKDn2PJu7jElPO8DcyiyP7j8r7q_vHzE42TOczX5bRLpKCgGCfddS8G1horDUQLAg0TgbW8nGQ6haCVf0keRBgVbR3ZXOGEXXTotgMgBwssSBNbRaM2iOYzF0Mrko82onvfLaVfswo_QTtYJN00eVA0EIjGHo6Kckt-N6OH0il-EjSEjOdjuneWV6B6OCfYNYll9GQI60g_fIKJUzPLYeCyD7Qb58Cm84rqSfi-4M0ulQWJKp5tiFF0ZC2Kl2uHRgRF_2FPDkPzmu5OI8QpXaxbrD2edO3jgmX7bLsTwO4jUvX3KYWJjm3Bnp3VtWy_0oaBPMOnGWWzp0SHXLCqy3PCb1a4vjjVBA9GfcR7QA8gkuZvD3T16coX-ZW_RJCQBwseiAx93DmDTDnC0v7XUMPqm_shRxJ6-52wfnxSZe5AQEIK917dF5aopM5WKp5Qdd3JrD_q0oV4j8EtcbhCJBB2hDih3zRV87GPOSbtMCJHfXc0PMKLhAiGDTBqR8RA9_bgM7b3QLXMnvt_gTuYS-E40Y0ad0N4-3MyRjCAsCscJPs6V_RAAihQKvFSlUKKU3Q9BO6-swzV_pin9PNwbwpDFDAaaIc6Ot8BpGSJ6V9HJqf0WLkQOVLEzxX871k4zKsyo9RO2me1a0K5n0AZEr0xcG0SMZcOiWnxVG0cVa6-4o6mLCpWicMyFM1JktpKUSR3OGDZJaUdIawoj1s9ObA5-XpYU_fRKxeozB1hfmbyPNERnFH_nVo_4JOjT7_NGxuHRUlhtYCqdi6n8BIBPyU0c4O4rEPoYcVoh4Xhp0uKQxh8yoQtIbB-tlKGs_HZOSkM0PlxRTzZg0c3RLoCIISxOnYjyQfHP8Da5qH3bgmPhaTssRU9TVOAZEwIhRagCPgC-4rnylalO_y-Up7_tQz1C7mJOtrN1m6zz385mY05aUo3_Udw1Mc_OwvnrFFEK-GX9HrrSuYVM7a1GUEEHssru1mInAzIz9hdpQT1MJzAbcGxfR99e47xjvG7vH-JSHrIF7ydmFtbTDibGhtdJF0xVfIMZOwMOJrL-h1BwZ_pMrnUEidL6IAW818ZBtut3-qkECgtuqXLgtCnHnBc4N-260DbDy6wfKimLI9ik4_tiFISiklrR6fooSmUAxos13Q0SKmJL8xy3_uoLQspiUd-iiQAVrhH1WFmuBp7vRR07LBpyZdGyLbVvL78icM38SZXjuAQ=",
+      "status": null
+    },
+    {
+      "id": "msg_0147af177ffb3d2f006ab274578c5487d2a5bb7fe4bdf89028",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 656,
+              "start_index": 552,
+              "title": "3715 Fessenden St NW, Washington, DC 20016 | Zillow",
+              "type": "url_citation",
+              "url": "https://www.zillow.com/homedetails/3715-Fessenden-St-NW-Washington-DC-20016/449460_zpid/"
+            },
+            {
+              "end_index": 1181,
+              "start_index": 1077,
+              "title": "3715 Fessenden St NW, Washington, DC 20016 | Zillow",
+              "type": "url_citation",
+              "url": "https://www.zillow.com/homedetails/3715-Fessenden-St-NW-Washington-DC-20016/449460_zpid/"
+            },
+            {
+              "end_index": 1685,
+              "start_index": 1581,
+              "title": "3715 Fessenden St NW, Washington, DC 20016 | Zillow",
+              "type": "url_citation",
+              "url": "https://www.zillow.com/homedetails/3715-Fessenden-St-NW-Washington-DC-20016/449460_zpid/"
+            }
+          ],
+          "text": "{\"address\":\"3715 Fessenden St NW, Washington, DC 20016\",\"checked_at_utc\":\"2026-09-22T12:27:49.249920+00:00\",\"zillow_property_url\":\"https://www.zillow.com/homedetails/3715-Fessenden-St-NW-Washington-DC-20016/449460_zpid/\",\"current_status\":\"not_listed_for_rent\",\"current_status_explanation\":\"The exact Zillow property page identifies the address and shows it as “Off market.” Zillow also explicitly states: “This property is not currently for sale or for rent on Zillow.” The displayed $8,200 Rent Zestimate is an estimate, not an active rental listing. ([zillow.com](https://www.zillow.com/homedetails/3715-Fessenden-St-NW-Washington-DC-20016/449460_zpid/))\",\"ever_listed_for_rent\":\"unknown\",\"rental_history\":[],\"listing_scope\":\"unclear\",\"listing_scope_explanation\":\"The accessible Zillow page describes a 3,300-square-foot detached single-family home with 4 bedrooms and 5 bathrooms, which is consistent with an entire house. However, there is no active rental listing or rental description identifying what would be offered, so the rental scope cannot be reliably classified. ([zillow.com](https://www.zillow.com/homedetails/3715-Fessenden-St-NW-Washington-DC-20016/449460_zpid/))\",\"limitations\":\"The exact Zillow property page was accessible, but its history content remained in a loading state and did not expose a readable Price history table. Therefore, I could not reliably determine whether the property ever had a visible “Listed for rent” event or extract rental-event dates, wording, and prices. Under the requested rules, ever_listed_for_rent is unknown rather than no. ([zillow.com](https://www.zillow.com/homedetails/3715-Fessenden-St-NW-Washington-DC-20016/449460_zpid/))\"}",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "external_web_access": null,
+      "filters": {
+        "allowed_domains": [
+          "zillow.com"
+        ]
+      },
+      "search_context_size": "high",
+      "user_location": {
+        "city": "Washington",
+        "country": "US",
+        "region": "District of Columbia",
+        "timezone": "America/New_York",
+        "type": "approximate"
+      },
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ]
+    }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1790080090.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "high",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "zillow_rental_check",
+      "schema_": {
+        "type": "object",
+        "properties": {
+          "address": {
+            "type": "string"
+          },
+          "checked_at_utc": {
+            "type": "string"
+          },
+          "zillow_property_url": {
+            "type": "string"
+          },
+          "current_status": {
+            "type": "string",
+            "enum": [
+              "listed_for_rent",
+              "not_listed_for_rent",
+              "unknown"
+            ]
+          },
+          "current_status_explanation": {
+            "type": "string"
+          },
+          "ever_listed_for_rent": {
+            "type": "string",
+            "enum": [
+              "yes",
+              "no",
+              "unknown"
+            ]
+          },
+          "rental_history": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "date_as_displayed": {
+                  "type": "string"
+                },
+                "event_as_displayed": {
+                  "type": "string"
+                },
+                "price_as_displayed": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "date_as_displayed",
+                "event_as_displayed",
+                "price_as_displayed"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "listing_scope": {
+            "type": "string",
+            "enum": [
+              "entire_house_or_condo",
+              "unit_within_property",
+              "unclear"
+            ]
+          },
+          "listing_scope_explanation": {
+            "type": "string"
+          },
+          "limitations": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "address",
+          "checked_at_utc",
+          "zillow_property_url",
+          "current_status",
+          "current_status_explanation",
+          "ever_listed_for_rent",
+          "rental_history",
+          "listing_scope",
+          "listing_scope_explanation",
+          "limitations"
+        ],
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 43424,
+    "input_tokens_details": {
+      "cache_write_tokens": 496,
+      "cached_tokens": 4439
+    },
+    "output_tokens": 1725,
+    "output_tokens_details": {
+      "reasoning_tokens": 1357
+    },
+    "total_tokens": 45149
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  }
+}

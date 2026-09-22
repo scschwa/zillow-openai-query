@@ -1,0 +1,592 @@
+{
+  "id": "resp_09e6e2fcddabdb26006ab27425679087d286c63f77416ea958",
+  "created_at": 1790080037.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.6-luna",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_09e6e2fcddabdb26006ab27426b32087d297f5a47557838c44",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRGBVct2Pfz-yxmHNolxXxQS4s-4anA7eZTMBdRV7EfSkQ-EiWShCaWrQb3kze2e8OUSuVQbj7dSqR6qVx7WMtkfBVcBDqWGpsNV4h6Wg_7QU47kc4HklGYdQsHsIWP2iGZo0w7BwVdGSFNheUuL7LFFNNXf7vnXmheh4P4izAEnkxXByB8RXs6lliRQOt9dLXORkeGzx3y7Y3ajDJgvi1sJioen1UIovMih83TTYgSmKGLZsrZnmJ7iZrCtbfLdxU480JdX_cTKM1LNedytdyhNu8GSnCusaWfqEbr6j_Sdud_kLemTn4Py5hucghwb1On0oWlQZkPxnXT3j-28KvpTEN3pZgRquWPGQy2ozAgnNgWrPGjIMTzONE1TxZ3cY7JLltE0Lou7kZwKRL5Kq4QFlfUOumO8XI_jVdcXoxZwL9ky-g2nxTQCKYKAO9BbSOg1MfB8BQoIA-SZ-uidQnz9pWl04Jhyn3B654q-5FJ_FNdVQAYYjILRPnRZ2ImztPkCus9DpoU8-b9p2tD47eWocUOGQJ4jjBrQfPmAJ4BiND1rSXLT1cuMFsW9wCQc8yScA7RZ6Q2KkYDx_nu21EvdwDZaYfyuAnOOjz4Q3FSb6yI9zBbBKnK8BPE6hdpMYY6edRuJ5VtkMOf8PE5Rk-8cqrVNe9bfvvVFoxexgQnVgP4w1av9bYaGF6NFnJBrdVc6oWtAqdGYjlDh3FV85eBg9ed0LIm5te5dFG8bIj45ZGYU0q5EjoAaopNu01aG1pxOmdfw3254O5JqWnk7PWmnAvOCiFSWEHIqxUixY2Sv94h9yNZOZDGUOnDMUFu-zIba0NSBPn0SJkXOyQTuapNGUgD1CE2kc1xxwTi2vGbgX0bH9Kh7LzLUW0umRBR3riSKGW9bt9VRQHgQLLoqaVPybciXfNyBxB36RHicE_318FzgUgDmbQuC8Po11UdWnJHjff5sHqqf2bG6DdnIQR9GjEPqkKtbIJGj-19qYGsvE7ULLTBUR6h_VKvwsw1B-upHITFDYuVpAspC2kzWUkRqPIhAvx3vDpmUl4N0vRc6cyHJIY1Up3IIa8n_DxuYaS7AlNJlZlYaoVhOjjMc9JJaKh-cARHhiDWFwxOeE770GB5QbUBZ4AwvStAH4fig9cAD1-LEi0GCPNg-bAODJdc2-qXD7UlUcFAtvFy2pDby6x4hTQRTiFLPPvxKHSsoB_x6cOnJQk1E_i9m9Zi7_TtUAnuYe7NOWA3LxRUNvHTdsm-LTHrlIfMgmH9G2zMYxDrkQinn7QPa3xLN4NnSQAJ0g==",
+      "status": null
+    },
+    {
+      "id": "ws_09e6e2fcddabdb26006ab27427028487d2b64f8ee9baa8c2ac",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:zillow.com 4218 38th St NW Washington DC 20016 Zillow"
+        ],
+        "query": "site:zillow.com 4218 38th St NW Washington DC 20016 Zillow",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4220-38th-St-NW-Washington-DC-20016/448069_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4218-Brandywine-St-NW-Washington-DC-20016/443098_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4218-River-Rd-NW-Washington-DC-20016/443060_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4217-38th-St-NW-Washington-DC-20016/449743_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4215-38th-St-NW-Washington-DC-20016/449742_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4219-38th-St-NW-Washington-DC-20016/449744_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4210-38th-St-NW-Washington-DC-20016/448033_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/b/3410-38th-st-nw-washington-dc-5jFZMW/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4218-47th-St-NW-Washington-DC-20016/438428_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/b/3680-38th-st-nw-washington-dc-5Zdppj/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/b/cleveland-park-washington-dc-5YxPXW/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/b/3401-3420-38th-st-nw-washington-dc-9h2s6H/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09e6e2fcddabdb26006ab27428293c87d29581663af2db6549",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRG8Yhgbp_brVjwbWEDVxNbqRw_PcRm8RVZaMi8sYpxf9nHJmSRsuPZz0XQARdsuBIAX-ylGBWpyfPqTJ1YQFDnrlSUx_WMx4AUSzjT7PQZTaz3p1kPzP3cexPapQ7_HWcNIHJRrC6h1XKjRaGv1hrg0TZRjADO1C1Nd6ZfPF3gV6qYiL2tPw15Q4t-TMq1JlTW_ZfQKc-AEJPzKakxe-Hhc2eue1vSaPtuLcdEqWo1m06GeQCE-FJA1NQUs4l6mRsqg4eCK0titiwGZECuxZ8-rZj0d3-2I1zrQfyn5Y9i2ADpFSZpieoNkq5eyn2uwei7yEUBV9DOKmwowZjhtA6iL0mG3FHaxw_TkpNrzY_30sJQ7wqq94aiOZPB1iCxCz7DbYfdtfaRHp5GRGWTK21SOqvFREGznPP8SU-h3NH_QxWk_uZMwszMW99bM0S8lhkLaCXlut6hIy08fKMiUzxuemPAgFrHq5qfi1dWzAzrNosb7itJwV3oT-6X5UPrJbhUWq2XOSlSTbvPRzqNCq-UdnKztkInskBQqKmOAaxfUSTChFbNPILRatyG4ttxuGNbGbdm6uF9V87qpskLQ0SRZPn70auTMcShs5fTF4dSbSmsj_yuyiQdq5IzLI4YwjkNIgitUVDx0oAyQCWSaXJZNTIZEDyCdN1CEyUj01eS3gHvNX2faeptUQKlhshL3KPXdtr7WqqQMVdLoCxWUSaq5RrnxsaQaNSaHgcGVw8CNwHAeUBeIIhCtOcsWM9wJaTZtXICbDTmJ7Y0X53q0b2RwSjAU_6UzjUN2g7HYKl1xAwTOCzVYyemj9P1r6nNjGtnWy0sszs2M4X0qLiakm43zYjVVQAxQUW7ATFjKdLz5bRaLYyY5rlQzXyDKsXiIaTYKEe8p5cS89t03CHJDncDkrGSgWJUKtekevKeZvZWfNI7Ark5tq5sRz35pPgJkW33uuap3vyV1OtEjqmMHUGYF8RtXx2RuQsLhOolk1Jhfq5frEfzFhy3w5OrHPVWLZYRqfwAY892HSTf_dpjHml7lEjADABygjwymZC9K_fPV3jFtjRKE_EFN-__4O1OrVbNm5X_G3oxsQj5-oDhECiYSmf5HbJo2WIKEEN7413NN0-f9dD05G-SReKm-EsDioZWhfcDdxQ8U-y8nF4M4iX9imnfOyliem9g0kQy-UiEuXCqs4ClCtOkaDT4sau-wWIWrFpDsCaMrbqwncli0VcxtgoSuuKSkG3w6I7vkZvSdI1NopNEn4X6XsT7Nl1pB4ghPL2zqblkCmdnsCu2_fdvfQ==",
+      "status": null
+    },
+    {
+      "id": "ws_09e6e2fcddabdb26006ab27428768c87d286edc096d26be027",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.zillow.com/homedetails/4220-38th-St-NW-Washington-DC-20016/448069_zpid/"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09e6e2fcddabdb26006ab2742a457487d2833158a1735bbcd8",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRG5lAmf_o2gY1S7b0yX4sAfTYDcg-qTeU-TwEBkhEU8BlEoUuM2xRyyMi0h2aSHXXevezNLgEY4VUlR2s0qdBVBDdPSh7H_5BHjPaLyZy4T6EXfIO6qM-Jhd1Der9Q8Z3adXfp4fjVFFJUXcdqsx-mI_EdCT3fe3k57Iq_ItPZeIowJugd_zielhzMfoDrWRdN3jJfjuIz5a2fBxh-W10rl2maQxC_P91gAN8yeG1Mmfc-vhQX46j52m9Cf6l2M2KCqPjpUW5_wyGjuhzNH-FQc3-IO2cBUQZ69PokND0t9S4manbyAOC5GfuX4PUJjRKf9PRZXbW6uEX7OXk5QEJCdEda94c3oCw3ZZZNFH1AVn-5douwzJzVmcJdGWgQ8qoXCmA0YUX2vcY8Ck87QiPw-pG3eA6FyvfbJXaRDnnM5gpBL-V1CJN_NNrVz0cc1UuT3Tcr-rYl2sT_cZGKJv8-d8q0RdU-tD0RxSPY2GZ1DRC7yf7g34_4bcXWW0iN5yhqBeTv9VmewUbuIp43D83OMfh1ZJI3BROP9mE3dlvy4P4q491vsOpsZNIYZuxius-eobcP8spae_3Of4B-3Hymspzczq3GPP5itPGx3jcYnTtGRjnkgo0Ne_huG7FRcy2MYBH5BqCWD-rLz4qoldh55hOiuV0LpuDUHpQAcae8T50eA3RkmhobRA9N_cCnr0Larn47X2GcU10wClFaGvfUnfzneIoBnheQJKNUNlzYh8vwWUfkh9JuI9Ify011LVF8yiYyXNm8itu878MQTezkp-EuthnEoq-ohsc_9YzEfDMe8aFJoqiiug72KcQglmtm_IfN14O8HRfuN7XA1uvPGT6Z1E-reu1MpGz6mGY-yqhz_MjWQ09_-iqzeeVztJ3UblDK6GpdoQlpOQLjLo5wTkTzzVgWcKLvnqFJFmOaO8EdPlgnx35cMeFmzWm2Vz55WxTlqDZOb8NnaQDKkp2u_PHrTQzQTAeHLpeK_XCman5B2E-j_PVEbrMk-9iqbtJ1_1_Nv0srj2K9ElaXzdunYGwr30yA5QVdskXf-tihiaqEMLAIJ0JV0qg17AFKGC61qQ3WjSEQxfq45GmpxTxKQBZyYOfz29jgXC4IgdV9-ghco93WCmew99uWZHzLChJ1v4HrHd6COunwAkZhTIYItMiuFQRheBPPWvzJBFnZRPOWgwCTazu7rPpWjG_n4Ncj",
+      "status": null
+    },
+    {
+      "id": "ws_09e6e2fcddabdb26006ab2742a72e487d2ad79c1069d48f174",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.zillow.com/homedetails/4220-38th-St-NW-Washington-DC-20016/448069_zpid/"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09e6e2fcddabdb26006ab2742b49d487d2ad6632fa62bd76ee",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRGltggB-HL5On-nzfHKor41GkyIzxRfD1a0cFy715npch4B6qAIt3xpF0Ft6QgUp6Zf7bEbZJ-5Oi4ZFEV8m8rkJITLPdeWGrnV5HnMY0FtOSMi5-ykYvsfwAncUugaB5r0-d9bHEtKD55bSdsQrmihyNY75_Ld9QP9qcZ0X0jp7IcBCu0Ly-15RDPPHHMung1oCwYsZVLI3jLnjNZaBN04gj7BHrLA15EWBU7h31Apb6FgyFvSSxzr-vzn2fgDXWwBjcFJhSjaGeWw2aiowMOYu1wDyTH5wLcKBVomDWxIZydafSKM2QNNleCMNuux7i-vE07qTbCWs8GhhGIkyoieymq4Lj7ckRAJ7WfHgKqLRMqbUbzMoCzCiZA1ZUbpyTWd8VgDF6PntkHiRCJ5nnkiACgfxTjzIrif697q1_2VFzWJI9_lnwEnZv9x10FT-NdlimPc7gq0ZjIiPXb5wFYPn5sc_wCqwUC0CMlkclAFaUMNAhD_n2UYw3kGgtKNQ9pj1tmaMBECmIJYsrryE7eI2yXHKBYqGVf_sG6peCmkeQJ89r8BpchAUnWopIOrNF7o8YYlPK7N0old8DE_GMMTQrmMEjLGRPnRjQNFHiex_xxcsL55psWFzJVFwPRNJUGx541Job_OaW8pxhgdazsaXM_-AF-WTHTz7AQCud0uMveCHpHzWFAlChS7MEVuqZ-8AD3DItWyqH_BltOPs3FPQX6qSY4gbLt78fnlt6-Oz1SC3z-Oa64L6_GJ0CLsCXOjyWG_y8r6MgffJiTYVKPI-J4mEaFT8GfUZxjflxEL0O8mJt443QTTaflrhQmCzV1MKVb1JLAseCw-vuLX2v5yJixumFa0KgDTmiSM5HW7NCLTxynKIBcRUUEJmZ3QFcOTedJUw_d5vE7XpxyIjpnINkdJaganhi4i0Bqj4NEAQMd4nFKdG7Hil0aXo_AKC6cHqzAJVJuTsRnIIxjMUSIKUEo5qlL4j7AIZOGWaTPD1z5Oj107Fxh7sWGHvKCAGlObJdrm-wm6Tomcfi2kThcx-sc3ub5gg7OX1nPw7XJhJXg6gZBRZJM_SlTFRYwFDzkoiIwZXGYLj3zmAM1_gXgcTbmN5w_CP5VC5uylgECHiuzvNIGer4W5aWZ8cb1mU5tinla1dsKtljElrx0EnAdw5xBBYQNUQ7GHTOjSG3YZcUbOUk2T7LnTAzfHfhMIUmpuM6dIoGm61JMO1a_dH6F8PRqs_AKtedyyqEGP9VVzP7IUacMEhMsHkvabv1R2KNO3sk39gxwWxauPld8nXxq--sF-F6H2wPLwv9jPPhDjV4HbwJf7U3e2mQkGI-YDo4Ll7Bs9AKxs0sAXzZmp7QObO-RBTfyj9Jb-O0SJPWZpicL8-yfSpjTLc7yAYNhmyrMwojfuezk2momoOAKwXOdJZMQXyasGY2W4GJ_UiW0Rd8t7AIW-X6C1pb_2SsYD30LEKn1-zQ7lG_CLMwvtWDRldo2o_d358kv11XZpJYmkdLxuFgeR8mD7k_tYTYEGQP5IUApEWJY5AFg-nejqntv-3832MDyWTwZw85eBmvWQiFXU-OsHWXyzjzGI3Im0Nm7u_OQXRUFmODZhiZM8nbDDO-JRyqFpYbqw6GluCYPTOOtAX93Guuiv8uxA-w72Dv2ZxCY1bdfQomKFk8lPcIfhIhzwkbOA-mDUJwe5LJZs9WyIuJ2Q2PzjyKvpzrTuHQH-vvAFwv1PdVgCYiLQdxHTi9XjHOK62Vv0RpTR6D3DSmNxAv_YSv-Fiw3eOpB7ik3uumXT7H6aG_-3TUbRrGWIHjsl4xma80OUIJBoE0axp9K4R825ST4lRFQKEYU-jelXNYDV5f_DWkE020gVwipTULdiX85gNLSpQIQ-NnQX_Y4fXKBY5E22pKw-5dP1Q7iHZoIjlDnzPx4L_9neP8M5HCM8dvug0zhSadKCSkOhoUXGEK7MP3DCT_IYwjdDfpXNnRlPRgHuh5TzWPy00ETyiGCHNdj_e1ONT8ZnfkDX75UWHDpqxe2VP9tXerlJCK98dJ8VqSYHOd-7jFB5Pp9B1mYxmBoOsW_j1ltS656XGc=",
+      "status": null
+    },
+    {
+      "id": "ws_09e6e2fcddabdb26006ab2742c908087d2ab007adc00016348",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:zillow.com/homedetails/4218-38th-St-NW-Washington-DC-20016 \"For Rent\"",
+          "site:zillow.com 4218 38th St NW Washington DC 20016 \"$5,500\""
+        ],
+        "query": "site:zillow.com/homedetails/4218-38th-St-NW-Washington-DC-20016 \"For Rent\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/tenleytown-washington-dc/rent-houses/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4521-38th-St-NW-Washington-DC-20016/449575_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/american-university-park-washington-dc/rent-houses/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4218-River-Rd-NW-Washington-DC-20016/443060_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3401-38th-St-NW-TWR-507-Washington-DC-20016/2079290575_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3617-38th-St-NW-APT-209-Washington-DC-20016/2129916377_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/chevy-chase-md-20811/rent-houses/2_p/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4200-38th-St-NW-Washington-DC-20016/448010_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4218-Brandywine-St-NW-Washington-DC-20016/443098_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3113-38th-St-NW-Washington-DC-20016/450244_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4200-Cathedral-Ave-NW-APT-1005-Washington-DC-20016/443323_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3401-38th-St-NW-P02-101-Washington-DC-20016/2055070843_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/static/pdf/feeds/ZillowBrokerFeedsTechnicalSpecV1.0.13.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/static/pdf/feeds/ZillowBrokerFeedsTechnicalSpecV1.0.12.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/static/pdf/feeds/ZillowBrokerFeedsTechnicalSpecV1.0.17.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/static/pdf/feeds/ZillowBrokerFeedsTechnicalSpecV1.0.20.pdf"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09e6e2fcddabdb26006ab2742edf1c87d2932b91be01179f54",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRGebeuTNW15yDLYy0064VnmT606E7GR6Z42WQadSSQDukL1ZOqp8UVfVZr1vxTGdu8ItdaUE6Gcdof366FtwjsJlZfBCtuJhFDGUC4cHAfrfaN0_ps2kP6fKEadPHw_caXJFv9IJkSFeUOzZ03L2s2qouHjBJT3-YdNxuvjiNjEpjzEpQ5n7KkggYeha6SbBg_4pSEqzo_wBnd2MQPnoqwEJoYWroSNwMv0IDeyKfYo5W7ggGMv01Qtu9dj1u7xI-KSA42bq2h3rfUEHAPwulpRbTftgksf7N_Uq2QI6A_faLJjqld6jVNSkEbDUOIMfIWlF3uh71j4ak-xG1vp6u7VTu6wkXax-sMOR-Imm6IwWhpemnmgmqL6VnvLhNGNSa4RgeBSLnxm2ymmb2v9SHutLdNZZkRAtkAFyqGV0ub4SowJ0hdjsQv6jOf-itSiT9b-eHDUAd5B-X0kDqrCQPHtWfxLPQS2s36nZqOcBV95kcN5_mfxlO9Bn-xizy2B4udhRWOVANiZ9kUmFqJ_24GXqu9_Whi63wK_-TYNcCqoet_Ac62-V3kobP0XfqpuEb0p-ryTzrpnJ2hlOGtUCKDPE7x-vA2pJ7Z_hUuQFH2zS7-M8gwNDOeeppjLN4f9Tb__bE2prYmERHsU4Hsmrnu5dOKQxtocq4t4sFZUmAi7mPnsBcE8sXRaqtAjVCz4Gr2zJDQyz4F-L3KWUrug2Ply-efbjzurModvV6v9bky70fCYEN8OVuunmLiPjBxUQGXk5pwSLqS5ONs1ji3CnBqHnLYwbGNwmmzF7bFlJkuOnBuHlRvqbP-_ICspvRpxkYFXUgS2M5YfKUaj8KJq_R2w-XkPG8bywYtzWQF5zkmKR_oQc8yoEoUXnVbo56zT7F8GSmU0BNTdzC1RoYfMiD2uAJhfLGgdXshhu5oihKlr-aPqP3Qk2rNlnaFVbggIBpNcks3J6qrlWU9HirfBhjShL8TrkTeXnL3oYauMt-VOqft_WsagHydhLZ72VqNLkMxM24wklFB9igKQQwdVMJ15D2AFpc2AeXSfmwpEH_ZuM9tzfpjl6wZ7VKboHdB5DLaqhYgfwrA7msJRPPEf0ujvSYZu0IN312-ePSQcr8X7xh71eGMoK-o0xu0HiwlNwubCuPGmu5FZZ0Xijko2gqR_0fmPCrYFnnQkp37OkmQBwgV1DuB9NnJDQjT2H-Tvep3lCKnKFBx-iYI1A9qOiFMLRnqY28ugIgzC-A4quAhQHZAUyR5gBrdhMzvjsdz2XHKUtW5GQlnUuRoCp1DljmrNWTeBvOI0m9Hr8uUjqvtXqfm64yoXOIAimMMuuOdfmD6IdTP0Tw52BEC6Lf-Z1NY57Y2vUIYWATa_NjL6l75skdhqEJZGrb-Hf3DhTTUrAwDacQmRe7ITHJlU-0PhgPG6GnS6zKnNWlNE6e_sna8YNdE2HufyHR8JSGbX7JGmCDG63N7VWl3IjoPfdzV96KXICd0RbPog0fiswWTjc5ktEqWpvh9GQi5I4etE7dodm6uVA5pL9owPLhNYv7pziU9aI6KDcUIcEa-tnaIkBwfAOgN1S5b-7JyuuI-t3pdFHpnA-nsylKeV_nMiqB5ZsEmr4xdkYDR6NVkeIMszZW4Cbcm5wpjBiu6la32OM8LP2AUTNlZilFCAOROu9BOwizatV9xH6MeThSr5tb4NMy96YWSldvSawbzw13Jxr5Bql-tgUhexj2RA5zcC07qe_KadKQJW-oDsHFzb3YOCpggkc6_ggo-SoxPluhK4DAigKQ97Y3eSvszHbEg55A-klrK22NHSVsxGbv1-1GkwjZLH3qM53VdO0nKhLnbrEECMBJF_Cyk38doYP2a9JQIQbOeOnuTF6gBmQNOcIH-iJrdpow=",
+      "status": null
+    },
+    {
+      "id": "ws_09e6e2fcddabdb26006ab2742fe05c87d2b7a48aa9e35c734b",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.zillow.com/tenleytown-washington-dc/rent-houses/"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09e6e2fcddabdb26006ab27430c65c87d2a8dea48dcf58d66e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRGLFtWmXNFrGg3wB8afSnil7ZNd-Gdorj3lkLHq5Oq78iXpZ4O-uVPV1E0oE7v4d6vZd1_c75pjlfAYVSj4hvtkiKx7RNmO3Igoc_yfugCl_oW6sKHNBNqJKWRehTqqHjYKTrzyUUPi-Nbd1CGCjblCvIZ-RCMz6XA_oOmTFqXQFVYbfsOm6DpyEe04Dc25DGJ3ZiN645tQMtdkP3M8oOgJQY-kSV1bNP5uOfNtUzq6pWzd3dyYNd89Z4wMop4LbF3OgkAq1bUQt9TxATdSiBKcG0pAIndFFKUIfOJBFaXZ1HTAZNmLtqpNwDFzfEvrKJBFPw7fc_ISaNmxvHm_0KSz9SeTLitLpb7fe062bB9048WikYI8w2TTkJ2YXzbXpSisGiI05VKvO8A8Kt1KnGQaU_DOe4ebOQwgOF7228JF2A7uXSd-QRNg6yACZT6FzSgGf2HknePrnlmkEJgBTearfn2ve5GtsLF_rXKQBJSlfhZCfVxl8afyEUtnY2QJrq-_qiNWjAdb5gui_sqGl_sAo2Z2CimyL41Y5c_9L7wpAHGVQ3kHJQkYz-eDVPYUWl6wOWN8mF-2ujIsDcKm_mVW9GlaAATASd4TdOEJmWc_d7ydAPqNpLlY75_339H7J8DKZ9kHa7JpiJrMrczI8c18-yMrM8g3aCC29NPW27dJOj8LtiEbPwagqvYoQ6_VQFTyKONlJf9ZI1VkrE-xUcMSYDoVeSCra4fRGpWqI03WTOCN1luhygEw0z9t4IqfPERwSsd0I6mbTjur6O0XaE2Dmjpq-V67Gv66C2Rkfmmqr3La2j0yaMdcfbdqZdfzVlNHvzd9YQA8WyI-b6yI-SMqJLhmPBAtMetORjq6bhKRF2c62q8ZdwHKwkSJvmX6keZJ0rDgPZsPJw9S9Gyf4DXNT2Hshn6JD1gFSUiHyk2LDwYYotElntPC8kRavrd3jrL9A0ytICAoj-424kepEwqcAnto6zIWbCX4bDjfPK-FiTgI1hbejAWMAEgE5bRy97TPmmz2edQ4VQ2aHdTffFL0ziM_21WNglbu0m5XnJX-3upx0_tnfBbpZFzi7EseArOiH2VbjbflmSw0qk_tHNumzoMygKO-7pkJImJr_3QaHnABEEpB80DXGfFIBKmFxHTYdNaYQ0AEH6OCMLadAVTuKN-pLHNfAMGEO7M0H3ZqWwbdglImCO9yR8hGdkIw6wKYcdruCFGnvpO-HWkiWnyc6vezLapWpe907hBOfW-s-eaegHQmrLMZPpIIpX9zWGJ8STE9GgRsSOTtLdIV4ZervQde0tc5jK1ZAYwnv7tp-wBAJiI_BRWIxhpxf_F7b1EtF6Z1OdFYhf9YdE86QwIGj1DzU7Dxy6rT8C9heT9WMCfaKxNloVL9lle63wuIIPPJoEGt65ZhXS9Je5jl_6J9i5vvNvQYkipDJbc7n-HbZsRTKBn8-aifZmMDxZ6AD-SWRXsChlUfNULwmKnoNNtu_w9SwEMWJPbqn8STAMOlTXvk5SmR0jJZlEAKhTGk8g8fKPbfdGoDZoIg4lUcZ32eOHTDrwvnFYzwKvQ1yf3Ylac58zSbFb8CVFbi9foai7nDDd9fZN5iVb_Cv_K1sRTJ8ASgrsLMQE4ehDTsF58d6k9kzPkPW52k2uHzFDztbLkyXh2BtW0eaZKcGbVyroFLrmyFCVsyNn0sBVGxL4Gj53WBvbUNMkx499g1DU0cQ_Sd8zQkm9j4NiC1XoBxyj6t0Yaiv6Ie2-mQkLrgnmi9r6vpnhy6IM6exMoq_NWCky_BxPai3CjjADHLfllUKAlsDFqCRmChEKGptScrf8yGyv4aEimOhRD3XjASGP_SLbfNAkKX0xxNWBqyIGEQ-lMDc6Oap1zo6DugrvQpPrGOnBx-WtSg7cIw6uNheBgVCfQVUVQlilNmuyBaiAp9qjmHa7iqgevRodN33pMiIrMUPrb9lx4tapCb8D_UN1DvGYDqBHnubcBkCt5wx1pD_GcpcjK8Y_HGIjIBuASZCzwAdcWE1pax0BDiUBwFbjoJFS_DFKXux_utGHUBW3NpX78h2wWdVD5Krr1OrpSegNLrQ2kVHh3jGdLsNdxRo6Bae-Ddq_WGCYcewwOayRgaEsHunY_-vl-DdAZOvfHiL7u4717b8TZSFASsJyXbaHd0mTP_7PeZ8V6u8cJhNcgZn-_iLjbO0Wur2EMr8JPkAhWHUYFHypjdZ0BHVN4rASVJS__",
+      "status": null
+    },
+    {
+      "id": "ws_09e6e2fcddabdb26006ab2743233e887d2b1e9d41cfcb3a07c",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:zillow.com/homedetails/4218-38th-St-NW-Washington-DC-20016/448070_zpid/ \"$6,100/mo\"",
+          "site:zillow.com/homedetails/4218-38th-St-NW-Washington-DC-20016/448070_zpid/ \"3 beds\"",
+          "site:zillow.com 4218 38th St NW Washington DC 20016 \"House for rent\""
+        ],
+        "query": "site:zillow.com/homedetails/4218-38th-St-NW-Washington-DC-20016/448070_zpid/ \"$6,100/mo\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/kalorama-triangle-washington-dc/rent-houses/3_p/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/chevy-chase-md-20811/rent-houses/2_p/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/schools-for-rent/139907/st-bartholomew-school/15_p/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4205-38th-St-NW-Washington-DC-20016/449774_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4200-38th-St-NW-Washington-DC-20016/448010_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4208-38th-St-NW-Washington-DC-20016/448034_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/washington-dc-20016/rentals/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/profile/Tom%20McGlynn1"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/westover-place-washington-dc/rent-houses/2_p/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3130-38th-St-NW-Washington-DC-20016/446920_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3818-Warren-St-NW-Washington-DC-20016/448060_zpid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/4521-38th-St-NW-Washington-DC-20016/449575_zpid/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09e6e2fcddabdb26006ab274347e8887d2810523a332d3d36a",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRGv4qzABCH2qpX9klY7ZncjZ7dmF4t0awUaEj6N1phod8_-oK50ZSX6Y3wqEJHHsrWGQk-Q3T8SCxcvsHk8VY-79SmjRu79SIJrN8iitGfRhrDjYPepI4-xZ_mH4zPueswI0XVDi37KXdzFnsOiMrz3JWG31007fXEjVpyqHZDiVmY674lDEZVIZiCtlFlCbkYiDSePcvh4bW0zRfJ7nJwX9vTODjteaRqvJIfaIayzRU4feRAFDNXMDTF18N6EnG5q-cd7FNAoSyqitqhH9nL6l4UURhF8Nfv0k1xcgNklYrH52bnJKlc18smuhTjLPvz3UBdDnfv8AsVVJUC9HBZc-_hucyl6q9gjM3kvYGuSCrEvkTnIChJLDH6qgsHkWZSn0hhnSiSK3kZsp_29SIKrPLrmwy8D1OVQz6IVf3BdwG4VirFTArMRs33ZC9yer9wRCL9KFC6rWH_XQ64Esr9oNY4k4aK-1aQ3CbQ3OM1uSKTikMjYHrHsF5_imwXZweSmDBZ-rmtoxqubIM_vz9hCHzBwHbaqbCHLaXOyudekFRSldwGGpM4iE_9dxYaZajFCg85QHc5JL21pM1AAKhhxjx_0j1eyCyF37RnidT2VZcNiK5Vl3IoD_HJQA1ZNGeFxBQaa5nCXa607p-vqbuo4HpdAu1p19Vq6OJ-ct56SwxSPIQmZO6a7Q5xmONn5boc4igTu8tkMoOrzBS9AR00o9lWdqWVR35-wgE3Pk4BUM0ca4Eyau187jYhIoG0ZwzW2AHEdeC8Iw0k4y5U0GjRv_EMp0URI6UdaR2haouJHIIUrAwYIS74qctZWimg-Kk2qFEEXX--d8nZ_tiLxca7BwON7IV-klRfpqAERcoAf1LiTFxNzDdUYAgbEqBp9Ms0DC9PTDmjqUD5RilkW0s7peJLBDXKUvhJLUQlqfWHllkKbVhJ_z8Fws3l0voxZqfvsSfHVubiLa5QOuhuFD0h7aC2KOHHWbcbpsbtv1BAw1pvBexyQWiTt8nGDg6SIeC-RLoNE3JntKWSUcoAv9xJLiBLaOGnaCjc0BkBtptrc__AbO5orn1a1NNDu4sP_Wt8rW2W0PMvtGL5IEAVVbXbH4dg50FMZQGfFIe3Bmfa_IelKN6a-m54IRik-fk-DDxWQvtNttDl2DkFs8_9Afi-5pins85nWAPO0Vo9_T7KTxCdJhZ_asXpU7E-mVjNEp4TLrJ-jru7y8Ofkpt1OoUYHzMFwiVmAd7y1JvkxBl7QdhheUySa2Dkm1euLOv1eFv6q6yO0BMuJ00p5Ey0uGQrUYf6-8AAut4v7rS3cpxcDmoiWTIuIKiBOPQDnPhGH4L834uTO6AEIyXUJsjT5f5RL_jnZRBKrbeioEpeOv6NLf2R-zddv8a7v63c1lawsnUlqrOldB309s7WUgY03JeOwKF1TwqFN52oX8hxcvMRW--Kv_E4AtORWUJP5ny_BpOeDwYe-QWy9rAiRHlgnZypkrP-sHTUXeL4whLOYX58pYCQ9YK4XV6UFKOPZeWSHmpGMAnDSJWzt0v3crJiZnBIBw==",
+      "status": null
+    },
+    {
+      "id": "ws_09e6e2fcddabdb26006ab27435038887d2bff1d59dfa05d0cc",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.zillow.com/kalorama-triangle-washington-dc/rent-houses/3_p/"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09e6e2fcddabdb26006ab27435c27887d2a65939231a33856c",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRGTh-AJbBRZRtcWepj6FMNrHKLcgarETVkmE7fVtf2bHDETrarwpDegbM7XnJe8TXu2WHx41g93nI9B3CMFhzzsKicXFxLqjkeXZhQrIT3fcv9NRNGoChDxov9BYOT7-5nQRaPwGldCEo9Ulu5_Dgt-aKTxMQYSTWK-vvOoNJQu80Nm_LwYZM5Gq-agX7ySQsPG56JYqgYwKWXPgKDo8sE9e0vy9Emc_aOwPOxNsAdHlUeJcXEkINVyX8A_yEaM3BR6EI0alWrw0cOErCI1ph0FzOECDbkNgjFaw2rT3-w-t_OXfDXjkwv7hgq6Iq57_jXBZmoOoNLJlNcvJbgvchEWtXLCmlDiq8ICYg8TC8yWwzPgK6qDzJfd3gukeQCqN89eR5ZVnFmUHz6Aso1qbtrf65nyDda1a2sfGkg0333jlsSIaWK-zbySrOI_z7sun5gvAa7qUJNksjcky3LTTkBnf99fepIJmu72KivDR5Sps_sWa0YW72OqI8dxEFTuF4_6rxQHoA1V-c5Br6AcNlEqteiJHWdZEx0DZ1isoIdg3x5RDnku3lKOsm0jJVnJoxy8A4V3fRyPvW-uhNlp6dF3-dSaZVQnxLfNeXFu2ONFlPUlJYwdaVdgwEfb20qXxkfNoIXtLbAqpYT-nV9Jpil8dGAT6Q8jqMDIpN9g9uPMJKBxtkWL3BD566zXdjotxprgyF2eHQypPMSCcXlscP63hNUycF_123jIDTZWoJupYUnqpw_EW0hi6AwuoTehl8SHJYMbyCCJTrPBXKuQEw2oxb0ECJ_OdSEPh0pZl-Pzk-Dnjp_Ph1jgRN8bmq_6BAWf3Wiic5jZdO6Kxve6cG7BCcz9F1YwZYWyFzz58zNjKwf7SNx0McyI-Ckln_kwUkWfl38tcZ0pOFOWO8WFpF5vxH6sCjRzgx-_31PaHG0MQrAc9-p7Umo8P80cynO_HENCFTX-uTjjI727QyswKfabh-Cf7RflwZTK-HI4GvLNchBcURGVf6RI7wUgjVChdaCKecOa-GC0tYWAcQg9tDvpNlvnzchqBi35HZQ7HEDbf7HVW36bZ0DcpIE3c5y1V87YD4loV9zNkh66KmV-qIFuTyLpJexF_LtFgZO7FxUH-C1qF9IPPo03s_5svwfj-cHEj9RuLBk4xp4obBiISdVaeouPXo0VxKThqJUnPh4pSXLRivtbLJpjmN5jhOG0qPqaUPwF9I8MXpylWbgvt-uoNtoVvCdygS-jLacbmjrFgmVRY6wOrXI8HNUHb7_Mesz4vGfCv4eCkqAunzD5CED9wpZz2RyXWane5trxNZwPCkvy3HikWMIARVOGbWpmkJIOC943u1QKZ_bGng_PObk81Xvvgo0QtWrXLdQWcw4nYOz_faSZ3EGmBmCDnYObP5-lJldV-VGY_BWLAi4fNSZjXmAWnYzi2ilOczwD7BkxnMFLfN12CYi7yopCI8VCQ8F8kcvfwURf1njPc_C6diQYvwLPSFPXJy_DdmPQSDyBcRD-3b-i0wfZ-nG4qBNDdKg_Nxd3cVg4RPa7cfLHi5o3ySSo0eHfpbyh8qgpUT4d9s=",
+      "status": null
+    },
+    {
+      "id": "ws_09e6e2fcddabdb26006ab274366ef887d2883224af08b33e5a",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:zillow.com \"4218 38th St NW, Washington, DC 20016\"",
+          "site:zillow.com \"4218 38th St NW\" \"For rent\"",
+          "site:zillow.com \"4218 38th St NW\" \"$6,450\""
+        ],
+        "query": "site:zillow.com \"4218 38th St NW, Washington, DC 20016\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/tenleytown-washington-dc/rent-houses/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/washington-dc/luxury-rent-houses/3_p/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/american-university-park-washington-dc/rent-houses/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.zillow.com/homedetails/3117-38th-St-NW-Washington-DC-20016/450243_zpid/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09e6e2fcddabdb26006ab27437cd0487d2bfd2cd02afa3d7cb",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRG5kFtjQuSF4S-KPUIFkt3cHTQnkf0iCPTjtwAjsV0CDz4c8b5zOeC4jJItuLpBcxkXl1EZZS2gHzFgk4Sw18o3WKM6_NvPI4rCR61FPghAcUQZtencgc0_YY6yC_HZaqwLHXbk-gaaGtwnFr9s25XmKMlwvrb6Co67AO1ehMvONGREgd5NP4RV_GJaDW7k9KLPvcA4prgt4IvKjQOJy15VKGSHkMT7oSEOfBpvo0Y2ZBIGeMeglJoLa6QUeo2E5ulbPHDAF1cegWjXlxuZt0J2O4nZbQfTV7A0DLYJIVonDEdCmcJPDPLH1uAiYDGr3uiBZUGYcILkqoFVPYWbWaMprIlcHuU-2I7yBh7r5jvDI0WcPqX5MvEMjd-s7iNduvEGz-IUWFxU2XlQeD8G0O0T3hh3z6I65ao0ypd0bXfYRZIiy1fvUI8e2FG1yJWJSSqklhSXgCI5AhzaiWkP57ck70lxTld1qp-AhWUizl9tuBo12fg0SdCJwE87tCak-bBZQtcXWpUCwmedEdB7WUhZo0IbNMtgAw1ksDVV1j_ILHRhxOgGH8NcS1nhGBVd3YtZcOAFSFDaTNYdl45JkQLKzp2RfzJyrdjSkb0syEXFzfi_xhNT9rS7S36VAGWJMzIJfCyNlZ0iRG_wUTRIP0Ly_2xqQFOQRVVVz92YZ5aqbBLrpd-IfgoQfWxqg2KcfOJs3r0ddxolWx0wzA66D_vouEoeQP0SWykEtRZQqXfmTRdZuP5pRfOKSmMyJfp9-y_h1K_U9BUMoQT8Rv6wUmC2G20YqXDGpOnvjbvYaCG1RVrJi1fjgKYBNc5NKPF_fL1FjVuDKt1WWcx_cxmUOsQWovA9-vfiHzUNaWuqelZ57erYxdvnhrIaqc0T_wolBpJHZsrlKAgma-VWgT4FDCE5N0Hx_VZ1QnBJb4iiA_ntflGX9KSJQxMLeCN6r2_ahDRcJUtuBT5QJMR5LtThLtHrGD7LkCiV8Ri9n4qx3MtPY3-fQnSqIDbu85WlVuSF-VRuMsQOrOhMvg_zB_wxfQjCuv5UYeEwWjUiXOdZ96VXELwHNCkCNmslDcQqXxJJTrc8hwyuaLYwryy61UF9kCTSLKXQ74Gm5lnSklov2I6bXxZr3tSonTwqgRFuL5ajX_Pcb2rctjXTX_nJ_t36UQ7G79FsohmPIjNwSS4fR_uLH5Yosi6thGtWyO0wxX3C1MxuPy_ZxJGGU0rZlVWE8iKWbqifjHVVLpDpW9yKI_NDv3Tru2L-UGQ40nzvOSumN4ipIMJ580krIe-hGJwDcD3g1jMX8EPIaRDR3niHweRdJRe7o4wJhNvirGTeRP2fL0XvFaLvsJ9oAesLlZnUBMvGTVarCgsNVlrq5pw1tph7zDWx8q0e3TDyPbOf3F6goSZKn8QSs5r1gjvGzsgWBbHGpyxw7lbglRsYttAGKaAXopQXql7ahXTUa9AxHapSE6-ZngDWTnIcBR2VrWqCjKk3SyzfPZSpcym45y04fFtGln-oEr79ieVEhoV5ZOmOw8wfWfSFlv31xCY9jiyS8Tv_8X3ARyTSxfRVDR8BvhAQRDpSwTQZV3019olxf63_mLpmP0C1fmnRozGTufdG4wuV6xisjM2WjhgtpQGTlpihR6T9c5RZqWR6Ds_EEB4ZYoKimVrVWF81We28SaDgAnUcjo8X7HqOhPkknhl-sS-Nr0oTFPEB3TFrzGZc7wwbEB8ksCgLT3gZ4thocCss_0bUzhrTYaRAIP11ykXEp5gbWGxE0HCrZ89zRhNfMiRlk8mHNrMRN_G0wqheTfXrX0zk4UbuJfqhs1jXe43lNEfiRzljQYUcoi-9az8gr8Lr3bSfiytCQ9hAYHvXsw2BridJdzyCYGUX1pfMkN_j7BV9cBq1k7ER1GQW-4WO8mPB9RKA4A1ZuO6QwozLHIhsrhac4zGXu2ug0EvmDWgGWE1C09PbaRtSv2Npt_y0CGxIYL2a-bfPRFHc9YCetZalLYeiNdx1jIeXwwDZzmj90LxltZATxfB8rhqXLf-4TA1M_sZliGr3D-251Ooyo05Fy8t-A==",
+      "status": null
+    },
+    {
+      "id": "ws_09e6e2fcddabdb26006ab27438e0f887d29960ae83eee5438f",
+      "action": {
+        "pattern": "4218 38th",
+        "type": "find_in_page",
+        "url": "https://www.zillow.com/tenleytown-washington-dc/rent-houses/"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09e6e2fcddabdb26006ab2743a058087d292453e2023a69731",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRGA42D-MlUNuuIo4CSjw6J8WGoSODKmQFnTw6dThPlX7NGoDMIrprlecyPyvICEJqh9CoylkZnmSAMYGuTn9mLEzVrURP29yyHlEzINg7klOg2itgcF9xC05-sV62YBCEqUphvYc7ujRPpgDlpG1S9uvK2WUjyWa6JxJxcQ1MAW6o696c3G40cyj-IJRzVoxJfZYcghHP3WVH7dSgRsXSb4tvlgOXGrAAXP5sm8YYPYgP2o_HZ2Hc1DFSZLVH-KbfGse8O8aC5SOvinjHgVB1m_P1ofTQI9Hz1oaCiDDnUZU1SIwBnElUwEhx7o5J9_SljjroSChqv4sSVBUSFbAGuOmRNvQjxvRvrzvcjdtZXvAJFp6jGHoo4CJD0jsE0F-J4cp8LG8KSuASqsajmrZF6qtRgd-hzjmbQzS2_FB-UQN744LoQOkLeWWY8ZANvkrVt9eeye68t5D4Ue9myAmng7U3xegMjgzvMS6JS3xZcrzGmyFp_yYtbOQazRArUkH_8mqbkwVXeFmNDEwlBe984CxraRy85_AJo2Q1GEMEWksWcDDzf27oxdrz-2CtDuO3AJGd8QyL-p3NTavl8qbSFSDy3UNPqsaH8T3fBPnQjiii-k99dZhWGNn5lianZuCl73r8gFgUaSoDStt7Oedk8lI0gqchVBPHDtjAOw1qwhoiCzPBWkw7gqN6BXYnVbx6BkBiZ_uKlt_tSsyzcMadxWSa6Tt46iToS4iZmEqHg-eZPvYg4tzVaTpiom1RsOGfBq0It2rpT6OcHr-_hKjwLsSBT3O2mBxCyUjcyMMNUNpIFOhHJzdX-WcIUh7JIjkPoBanLzn-i615VRKohDo9USOLB4RU8X9633zVe1193sJKDRFeV5h4xJ18xsX6q7AfVg2vpJ9kXez3D5XJhKH6yapXI1n8aO2G_QizTl7bLbybF-Si-OoGA52oRzBXFBifB-fX9bIvx4mPeD25MSOe80VgogymIx-C2JWgGTYLJTBVKEzYWS8AOQrREp4BQCp3T6c4_iX3KfbvNhf2ghMkp8e2QKRbUwD5_osyXw4FiZ3_RGWcriFU3cJBEBhwgVD06xwk-5ImhbjoIcXxdWVASURhv0lQxqvhTtYXekk4wkaupQ8o5P2_hqEKKcdgSEK1SDeOyr-b7XiumwjF9sBBbA25YhbS_EEIbjmWFPUUM3ROBOf8TtXFeJx3dnfLCI2gHD1GayyFLHWzp3LbBgQX-X16e0fkDokcK26SdWlODyLPBGDNV49YX9k6JlxMgYEfGl7I9cdfYwHYXrxFrjCOeVdnbSGBLHc05nP_zFjzgGUEiqW_w2Ye_5_8TrZvvCgXD1YpIp5w-K7D6k-b9gu-NsjxVFXg9M-pwMwkuDFBa2R8HEFkCSos6LpsE5gXM_YpXGwro6ASqPr1a8VT7XqFEItmWxlUxKm6b8kCSS1y-qjN06CJSohOtSZGjTJZa57-EEaEnUY6llT8SdMP_KEo2aj1LpBVVAfvJmc7vOCJ2stBqKmYMufO_rfXBZZavWTMe-5N-C2mIku8LxlCoytw-0wKE7zqNPnJUa903AMBqfpCDAIO3ICedAjrixTz9TyymsFUoBmNxOFG75MEHXDsXZ2LS_4P0h1iOkJEOYaIchBf8kJqYioNcpP47LjKqBgHe4VeVQNX2IXrRf2XWfgrPfn-RsQEYO7dVUASdIkk5JWRaXOZKAeEn4luAXyyeIGkxmbvJsyZX_szZqylWzky3TvVYtv_Y-YWGiHVvCIYa8Upy_i6JnjMvNaVL6ypNDzID4H65kuQdIVcxAk0uzKw5QAI61pPHRTfVp2XrL35slX0pW15nf930YyJVjTiBQAbqAcwbqguiXGYQqePMuhe_WmopOfhF0Z3D1FtMpS6G6D41qqnH2nLHuhuJmrawbVKd3rATQEzsVHYLaZzJhLtcHBLVxyR6RTIjWuJbGWp4rAgZ6xLT148Umc-u0O6DQnIWS-z-LYRrm9K1JDOiIP1ePzO5o_D0_YNkakTeBNGwAzK68s4bpZwZ0ErbHorFGhtKPt5NuIGBM3fQm4ie0oyVPpgWK2tTnAFYjCUkTeMgtYytLhUVJZWKT5sqCjKqtEuWajFCSwoQSR6s7iuViuyszYj19WxXNyTHsOwUKtCbgbcQzdjzzm92sy5OlT08jsqo37xi43ZhiE9HmAGts4vXfYtOJ0Ss2SbHi2_gWZNDAtBEQBbX1F3NoXr0a4oBykOwzcvL4w1PGix157vGUTdU5JOsk2Lk8mnGwZtI-fOtCug_0t_WVcFSd32oH-jaV5bVHZiQyeLnNi9Li_jJKFr_BaB8SSeOXoXscb3MiPeBr8qn58eQUJWdmjr3ZYVUTtWT6vRvijEF8wlRdHBjjME__vJ9-9xNt-j5rrWEmB4s-6BqNFdqoO29yCQjjUoFBAuVfxXuC2Tg3-S4jT4ux7neQ9D8tom0b2WPy4y5WpxZh3BLe6uzaRIPr7WrbJtYdkcuD1r0QvQw46yHbNRQ7g_laaxe8IVbUgHKhJj0DCnl0slea590oKqrUQjsV_fFaZXTZ7OSalZOymsGtPNpZF6AEfrdmY0EBGnEfXzm8uxX7KuLxX5hu7uQIZbafgYmBC7ir4-ep_gPd0M_TdnriOCuUc2atVXlU2NrBwamJv58izGZ2uk2OBmL5XsKvR2hH8OTTDEE4dqxAUsLCwM8WTHUQJplZpPC_olHJGXpf-fgvAnn5LngoS4BuYjNew_WZP9XAdwB9c0Huq2StQTvfBUvVhDCoFqCYBukKotS9RUTM5E01pMQlsPdpXNiZGqp-orWaiPRKl9neY5UumI0uPWQLCurdXb08z9azt_j0OYRpIrbcpQlpD5eWyYM_BAWGOEZUw25N_Piho51KKHotzj0eBjXUac0y1vpaARz1AqJDcAwjU4P1ezL7-iRBiBythnc-thE64t6yCC-71TxF4WtNfYVbBclSQnhG3XbimM65G_h3orWepj2IZU9zkjgJ7HjlOP1zZO8zznIKRpQqTWwyBQo4zq59LSQ7N0TTnBRG0gM1xiRtOhdyrYejyutLyGi1mdvJTakGhyoYQtZzLo2E0cFkfBwk33Uk5cYMDWFyHTwOM8a9_Rjl0an8VtiXhjQgVC7RmBDR0ExGdmdGCsOrxXH1GcnrsYhu9G1j8nR-L5633amhnKiFc0L1PNYe_gg1zDARN4WcOPhGvdDOVZynbdAtkLRE0R-A68HKLav3GUrV3CpiwhfektFvIzfwq7A4PiYcrvZe88cO2hJFZV2ZiWv6dmiIC1Suf6CfQSvgDJR6Db9m_BqNbjkyiJ7raiHIPUuv_8VPUOqhSAcEkl0KJ9kwk4mE702rgft3OyMz5xPXij5vEi7am8BGPwy6K4QZkm2J2x0tjJF8ls30erBpSFwrO1SwAZBKUs6BHn5QzvH-hc4W3bIYyO65FwQpE5HlIlSQlSc3tthNLsbmE4fBF0L7JWbNXWdNZqy0OVueC7Xr_4w1Oankl3fAXqLZrGQp-xB9M3Sme-MVTEnxWT-40Ucfyc983roHeLVz5GomqlI5YWDP9K1Tj9oHNrZZYtb4FFLolcOfoXHYL4yOpyGcEmhPMwYctfRAcmUW6-nJjyEfGOQ4LP-rebQD97ka_IuWKCFeGnVTGEMeU55UbJ7vDwoPHP0CJnWV4NFpwoLHYP0MR1-st0A0JaqYoo3-_8eovimvXwK1qGNUAHmiuaHvClTGeVKSt4IS0xJwk9leey_5f6R9mfQm99WiChKgBcSmSX910djYK99_HeSRWa-cOBq_CAhGOAicvi3QAppQHtMmVzg7xi1uw8iIWGEtk0ixZ6QEXQru51JJmsmzqxq8JtylwvvL_0XDK7NnUtWCPU_fshgTLFQnC51CLNMYvYDULTUNsbFvbp60BupAeIPiEp-4JSGmOFtZaPaBdiU-ZxxC8v1wGT14I9H-Qm36n6_ElErusGvo6ynAnka3o3FTc9n4G6t1JGT4ARfErPOPNfZ-JdVBwnxFStERP2qltIDyPDxPusRGe5mJvgxeKm009V7M4JL1JaoVkrLE_AdYcq090EQVTrLbNkZLcDMPb71pjlr8pTnl1un4GXj88dH-_qhQzQFJa9uJkf-bk2JubqD-7FRjypxOUJsO1Zcuob8zqspAKdpd4kssx5Y1NXHFRKPuZ1VDtByNCAJwgqGvrtu65R7KglY7rZfs7ne59S14U3XoV5i7NfcraW44TyJ0n96X51tGHO5N09IUFRny5MIVs8KNu48EXH5_3yBEvvp77ZbBrpUndyznBDWy9SwtSJnfGMmqpNkAWVHuObbaSzV-SJ8fkHzLWGJa_jDtxLZ2LOfyt52Mp3Y7RJB2SpvvaAPsP75O83buYeJkDxOZ_4ooJ9g1MkfBZCsuy8X7qfnMJfzgnRbvLR8lv64xq-oPhLLwhsrWy-pEMqzBCYyqi2jegJOXkALqMmCSsK9tYCf8QI6rn84uVeF255HL2G91woFoAfFQCRKkGjs45_Iii35LhrgCOe484_VlOanhQFb",
+      "status": null
+    },
+    {
+      "id": "rs_09e6e2fcddabdb26006ab2743de8f887d280b9ab0353ab8ade",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqsnRGHRC4s9kyMDZMlS8Xrc85bSYWXYoB2M1ZBVKBHPNEmhJCwItou9EXWby2KSiXxIzyt9dLeveMHNpay3rWmAntci0A2wM13PElUVvu4TMY-9IpewyAIrcVXhRpoe9X2wrrD2o8dDBY9PU0QhNoCPSjyAtvxvlGWB3JsvwZ2nSUbFt4H5sUtLAEGpiYCa1JszU_M2uc6C06-mmEnoZc-1ANSVNiW4dCF85nMTL-ywu-AIurb45Q5p554XSfEHU_RjjeqoSeWudMqQTRcIjX_FbaIbvc2GhaugtCSb-9XxD8jlsUiXCWSxuFzLMKjWBWmBNlm_pNe_iQsAIC26oGxeR3ya1rvlBc-TNspK76MGSgvfL58fjXcEAGMIfdJ8iET3Ja7aXJlPIqiLzZZ1Mtpm_Dqem7Kj6bbfeMfBygW5Wuncuul-4zIt9vXlAIlVZAth-dsiD9ElldVOSEMq_OuqbT6X_BsHlUehTrMwSnp_GkAKWlGe51UGvDZZPjRBlBfNgPRMz6DsN1tAKNyEqui5eelpbPN_3tEnf5BG8-zraVH6Z8hmd1DJE8hx5A8qgXBARSGvgXsVohTPVwH0Z7h74ym17gesgn9v57CbrnCuct0_YmEUIBFvubB8iQLxRuH-KxPBfvvzmoXB5TJol-XsR5xQqk1cT0WFftfzSby_vwhYXSeZ9HeAfwumvogZFGdD1JhwNHBSxDrjCaPkPsvyRjmr0_wl0dD_dvtcR9UHZGQDbDam5IYgZLQItO7S6rAsxtjmXtXSI9dlaPE6503F6VmNbu4nseINOuMd_3GDWAmcEbJ1R48d4o60mGgE4jkK4bBudB4Fw3-ddTR1d33EjdaDGHl7Y4kgOpAAE9Hj4YpddfTUEu53AU2e6Km6V-DrNrEznI1uEWExKUIqcEMTey-mk7Iioo9uLEyw14Ufo122uPOV-k5hlq_ipx8VWD-laD10kGCI-YHBuwhmuPtTTpQjicqrqLTC0fXV7SZ9JYnLnfnWfDpsEmJ0S5Se047tiffwI-IU0fxISKeBWitv40ag01HEeJ2JLVLkoZ3R-C1vSanvG9fpZf--k6fTZ3Xx1NbmZGkHq2OnPrV5WPISU3W2-48IjDdfBkD7w3uM1xxrljalU1NnG_B3PqFQotRUQIG7wENqQPy_RgZYZ5PFr-mWi6drHvKT8l6dfzAFTCvQikAvvMg2uijjw54wQouzBLHG0rad2VsHKGzkIpVVVuictsVPr_ynQ5tWr22Qk7MW6FYT2KrAlyx5B_WIPbS8PtO-3xCR5CzegALSBS4cEyq1gwmkX8NOnTTdFY4U9ZB9d3SHZc7lEi474vwGv__78KcM9NEmqrPelj066TaH9dfzRO6qprd19OSe-v-XBaJqiyfBqW5ImGRZKgpmJU_to0g8S36BU9RBERlO-V13s1JR6BRXyfU0oWa5JG9M5tyhBzJDROuKE9xEuLA2ZLmQSQ1hJRhPFSNvnoG5TY0tOKmhflBx9B2klp9uLeKNz6tGBd2lo0PQ4x4Gzxodho03w6tIpLGLlMohQHieXN4l_Xi2YPTsX5eJZ3g6qRhAtB8SLxNVclFgs8pEnEFyPZMs5dTVdPBVCVFII41dkpBxDoEeI3IEZw80KjZaYhDS2OFg-3ZzjSKNiap3ZxOzDljnhjmPx2bPOcJxL1JLB-TrL4IQNTQijASbj98bHg4HTfILheLGlVFbIqumM-O_0s7Erpn19aA0lVQiunp55lMUnw5STlAg7IAFkpj3JMEsrrHmSf1koLuLHlZBA9Muf0ACVObeZ25TzM_5o8xnUIuCv3UanYIJEz3OxWPC6AEVhJoytN460euiT-Goxjbkkb5kurYyiP6qKZgPD9uAabztqnJKySmNDPL2gHF_n6xSChamPYOIVbaO_QWGsQmDDBDyIog3MGkQiXfgSAYMa1P6bfnBW8iGH3Og2stXbhVzn63MZzHQyTxp-k_-PpBH3SohIlxQ-Aqf8XgjCCNzzNgrkBXkg4Ozg-uN9RmYaP1ar4YVlyq4luj-z_t4qCnikyv2xlWEfE2NtEiHxm4OI50dC-h4BsDEPSX9DmHd3eUWgq8L_sBPSlrZnvV2RhSJq98rEwzJGLFBG9qGRuDkOUnbe4i7DCiyIiOVjuBbl8kukYvkA5bnysFb3ITTXDjW2vtBrHMPF-BsaO8pnGuapWWKhtzky9-m4qPGeiEEAdY32u6AjFgP7HVVskjgOtLHZ5E6_4NKU9OvGeShLZMTEjSzJu5vOoDCZjnwblKQ0Hmgs47pdxRPmuuVY0fPNJ8J3LMAb_-jT09KvUiHtmGbd4gcNQer61wZDtiocj_AIYgDfL-K67ZIp5jVqc4dduTyMJuDnJoVxorQkiyRDLK-cqtRelX4VQ-OEEPXNxtahb2-h2XVC4l7--EezuTZfiTRnruceTTyyWiCQFRLT4iDyB4V_YDZeX28XUirbyNZFff0g9InzU1r6nyWvzFaMaAPugQg_KVzf9yWXIflI-SNNvnfux6nS6T8VBGM9LVLuM_EKC5phz8e5ZZuMB3-FSfkaggDSYOMW2JC5rRnPraGgf6TNKB05S0Qlma_KOKn7oosO-4evuWgxR5rCgnaLpGXJtO3-VTZalIFmcvECUL-OyDpLoqF3c1GNnSOxJUtXwq2n2JJlsMs4H2vktUg01r85Cd_ASIjOr1vqVXL5Ndkq8a_lTkf9aXouQuBLpwkdRmHuiyb1LdALaQkakMy2xM7gk-zfm6XXlWfmRtG52iFju2T6xt77fxBnD5hLzOeZltIbP5sZ2JM0jQaBR3TW53NjUZj4wF1d14z0dP6cj7qyzRgjR7CxUszenjTklWOyKIkUcDH0nQjO1zaY_hEzjo0MPfKU_J4BHq3S9dVluWMPRNyrFGPFI-aPwwZW-Bo2CcJREzvr8UK9nklWHCKdw2WNTuFE1iyPWBSe2WkaOaPUGIjzooSYAT2kGlf3gIiY-Kit0dwkIja4QI0p3XPB7fqAGFCPHo2Kcg9ZnLlf9qpB7qAi0Btfh63Y_qpQ60MWYW-sfpyII7z85PzgRShQZPWqkdxOkbZlXRV8MGOzZ3Bcxh42fV0zobO7vo6xoFGvYDNhhtoflQdKPynYSE_mMMrgHhpGIYuVRppgZvuMuMgZF0bFiEVxnWCQ7j8EfMCWH9D8Rqp73ZHp3NiOmtE_A-g5Y1cpiY5jZ_EzsQq2E8u_jUeQJiyy4dGONMWBjSUCMUFjm7ZP7ab1aevbaVCU3h7XkPuhk_jnhG0y-hUxgaz73NrcuwbcATI-sJHQ18AxC9orMA8PfTsAaoomU4udlVH_at9NhdeMcHMxka85gz5hTAFKXn-CTpr7NSwEzc8Kc3zdclOug4FO2ZWjimf4m4GtjnB1bYVojrq56N7rpvsd5fO60I513YK4KbQ3FssU59692PNcg6H_mdjaTnzRVyjsShwS9VrQwUSh5Kv2ZdIe2rKrs5pUu7V6P_HFXDlqBtwegqssFPqYInFlCmDLFh99UtLsXDUO0dsMl7UGMcusVRfj8sS2oFJexN_Jx_xEGlRdj4s4zrSRq9wPS3iRcJQTfnwRFsdK2ouPygwbWFmogRe29pjwPmJctS3tuo_lBLDVRrcEgBMFdQclhEisAgbAypURcvzrUru0OuqNv-TKqoqdqtHxQhNmYadqpECxfStEitt06oFPJl4e-iw-f4Y6iFuIP34D2niHChTzyBRiK-FJ3XyorfYSLS-kXalk0Wx27XY17pRPWh9kOq8C1tgsuRZj4jYUbzzf6V-Yzq0_a6KGbAQCyIBQIZbIyCJTsV4s9JNOMLXuepAgjmLBbZZNFhZDc9oHpRJe8wcOqaPJdPzdDSlwd3GqDOgfpiE3D7EP0MhlXcNoCfE7Ys1pdOVkScQsXBaEhnNjyhxHACtfi1-PAFNu26Zd55InPbzB-hFKM3dLNzN6CRApmPV0Yhfu9QMF6ENUnwyFddtehtm_4RDTvW4IokYAG_L9_J9-Z0-d25j8rkBEqAC0qegchWP68vftEyyTtbafN35I0sUkYqr4RBHVtIyjxNXVQMZUQpJEdsPDh65VxS7b4dm_lkU4kNkuxhg2Kw_WWlfrRVTgjuM9W47uAhssZwo1zC5L0rqHbQDgHmvlES8IqaUMlLOTaKTdTizO97I6AhCu8Cyru8i4rY7NonfH3gYdU8JKSPPI9gNCZYPC_fTJnQLd45r9fC-VANjPd33MfyCud8wEtEtTAS1CNIZYqOGCCiPi9fqUSplI=",
+      "status": null
+    },
+    {
+      "id": "msg_09e6e2fcddabdb26006ab27442605c87d2a288411ed9d6b7a1",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 787,
+              "start_index": 693,
+              "title": "Houses For Rent in Tenleytown Washington - 20 Homes | Zillow",
+              "type": "url_citation",
+              "url": "https://www.zillow.com/tenleytown-washington-dc/rent-houses/?utm_source=openai"
+            },
+            {
+              "end_index": 1663,
+              "start_index": 1569,
+              "title": "Houses For Rent in Tenleytown Washington - 20 Homes | Zillow",
+              "type": "url_citation",
+              "url": "https://www.zillow.com/tenleytown-washington-dc/rent-houses/?utm_source=openai"
+            }
+          ],
+          "text": "{\"address\":\"4218 38th St NW, Washington, DC 20016\",\"checked_at_utc\":\"2026-09-22T12:27:16.094614+00:00\",\"zillow_property_url\":\"https://www.zillow.com/homedetails/4218-38th-St-NW-Washington-DC-20016/448070_zpid/\",\"current_status\":\"listed_for_rent\",\"current_status_explanation\":\"Zillow rental-search results show this exact address as a current “House for rent” listing at $6,100/month, with 3 bedrooms, 3.5 bathrooms, and 2,346 square feet. The matching Zillow property-detail page separately displays “Off market” and says it is not currently listed, but that page appears stale relative to Zillow’s newer rental-search evidence. Therefore, the current status is classified as listed_for_rent. ([zillow.com](https://www.zillow.com/tenleytown-washington-dc/rent-houses/?utm_source=openai))\",\"ever_listed_for_rent\":\"yes\",\"rental_history\":[{\"date_as_displayed\":\"6/10/2022\",\"event_as_displayed\":\"Listed for rent\",\"price_as_displayed\":\"$5,500+22.2%$2/sqft\"},{\"date_as_displayed\":\"5/25/2017\",\"event_as_displayed\":\"Listed for rent\",\"price_as_displayed\":\"$4,500$2/sqft\"}],\"listing_scope\":\"entire_house_or_condo\",\"listing_scope_explanation\":\"The current Zillow rental-search result describes the offering as a “House for rent,” with 3 bedrooms, 3.5 bathrooms, and 2,346 square feet, and does not show an apartment, unit, room, basement, floor, or other unit identifier. The matching property page identifies the property as a 2,470-square-foot single-family home. Based on the accessible Zillow details, the rental appears to cover the entire house rather than a unit within it. ([zillow.com](https://www.zillow.com/tenleytown-washington-dc/rent-houses/?utm_source=openai))\",\"limitations\":\"Zillow shows conflicting current-status signals: newer Zillow rental-search results show the exact address for rent, while the matching property-detail page renders as off market. The historical Price history section was accessible and visibly contains the two rental-listing events reported above. The accessible Zillow evidence does not provide a separate rental-description page with additional occupancy or shared-space details.\"}",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "external_web_access": null,
+      "filters": {
+        "allowed_domains": [
+          "zillow.com"
+        ]
+      },
+      "search_context_size": "high",
+      "user_location": {
+        "city": "Washington",
+        "country": "US",
+        "region": "District of Columbia",
+        "timezone": "America/New_York",
+        "type": "approximate"
+      },
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ]
+    }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1790080070.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "high",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "zillow_rental_check",
+      "schema_": {
+        "type": "object",
+        "properties": {
+          "address": {
+            "type": "string"
+          },
+          "checked_at_utc": {
+            "type": "string"
+          },
+          "zillow_property_url": {
+            "type": "string"
+          },
+          "current_status": {
+            "type": "string",
+            "enum": [
+              "listed_for_rent",
+              "not_listed_for_rent",
+              "unknown"
+            ]
+          },
+          "current_status_explanation": {
+            "type": "string"
+          },
+          "ever_listed_for_rent": {
+            "type": "string",
+            "enum": [
+              "yes",
+              "no",
+              "unknown"
+            ]
+          },
+          "rental_history": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "date_as_displayed": {
+                  "type": "string"
+                },
+                "event_as_displayed": {
+                  "type": "string"
+                },
+                "price_as_displayed": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "date_as_displayed",
+                "event_as_displayed",
+                "price_as_displayed"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "listing_scope": {
+            "type": "string",
+            "enum": [
+              "entire_house_or_condo",
+              "unit_within_property",
+              "unclear"
+            ]
+          },
+          "listing_scope_explanation": {
+            "type": "string"
+          },
+          "limitations": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "address",
+          "checked_at_utc",
+          "zillow_property_url",
+          "current_status",
+          "current_status_explanation",
+          "ever_listed_for_rent",
+          "rental_history",
+          "listing_scope",
+          "listing_scope_explanation",
+          "limitations"
+        ],
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 60540,
+    "input_tokens_details": {
+      "cache_write_tokens": 496,
+      "cached_tokens": 4439
+    },
+    "output_tokens": 2830,
+    "output_tokens_details": {
+      "reasoning_tokens": 2298
+    },
+    "total_tokens": 63370
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 4
+    }
+  }
+}

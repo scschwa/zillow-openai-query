@@ -1,105 +1,92 @@
 import json
+import re
 from datetime import datetime, timezone
+from pathlib import Path
 
 from openai import OpenAI
 
 
-ADDRESS = "3726 Harrison St NW, Washington, DC 20015"
+ADDRESSES = [
+    "3726 Harrison St NW, Washington, DC 20015",
+    "4218 38th St NW, Washington, DC 20016",
+    "3715 Fessenden St NW, Washington, DC 20016",
+]
 
-client = OpenAI()
-checked_at = datetime.now(timezone.utc).isoformat()
+PROJECT_DIR = Path(__file__).resolve().parent
+OUTPUTS_DIR = PROJECT_DIR / "outputs"
 
-response = client.responses.create(
-    model="gpt-5.6-luna",
-    reasoning={"effort": "high"},
-    tools=[
-        {
-            "type": "web_search",
-            "search_context_size": "high",
-            "filters": {"allowed_domains": ["zillow.com"]},
-            "user_location": {
-                "type": "approximate",
-                "country": "US",
-                "region": "District of Columbia",
-                "city": "Washington",
-                "timezone": "America/New_York",
-            },
-        }
-    ],
-    tool_choice="required",
-    include=["web_search_call.action.sources"],
-    text={
-        "format": {
-            "type": "json_schema",
-            "name": "zillow_rental_check",
-            "strict": True,
-            "schema": {
+RESPONSE_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "address": {"type": "string"},
+        "checked_at_utc": {"type": "string"},
+        "zillow_property_url": {"type": "string"},
+        "current_status": {
+            "type": "string",
+            "enum": [
+                "listed_for_rent",
+                "not_listed_for_rent",
+                "unknown",
+            ],
+        },
+        "current_status_explanation": {"type": "string"},
+        "ever_listed_for_rent": {
+            "type": "string",
+            "enum": ["yes", "no", "unknown"],
+        },
+        "rental_history": {
+            "type": "array",
+            "items": {
                 "type": "object",
                 "properties": {
-                    "address": {"type": "string"},
-                    "checked_at_utc": {"type": "string"},
-                    "zillow_property_url": {"type": "string"},
-                    "current_status": {
-                        "type": "string",
-                        "enum": [
-                            "listed_for_rent",
-                            "not_listed_for_rent",
-                            "unknown",
-                        ],
-                    },
-                    "current_status_explanation": {"type": "string"},
-                    "ever_listed_for_rent": {
-                        "type": "string",
-                        "enum": ["yes", "no", "unknown"],
-                    },
-                    "rental_history": {
-                        "type": "array",
-                        "items": {
-                            "type": "object",
-                            "properties": {
-                                "date_as_displayed": {"type": "string"},
-                                "event_as_displayed": {"type": "string"},
-                                "price_as_displayed": {"type": "string"},
-                            },
-                            "required": [
-                                "date_as_displayed",
-                                "event_as_displayed",
-                                "price_as_displayed",
-                            ],
-                            "additionalProperties": False,
-                        },
-                    },
-                    "listing_scope": {
-                        "type": "string",
-                        "enum": [
-                            "entire_house_or_condo",
-                            "unit_within_property",
-                            "unclear",
-                        ],
-                    },
-                    "listing_scope_explanation": {"type": "string"},
-                    "limitations": {"type": "string"},
+                    "date_as_displayed": {"type": "string"},
+                    "event_as_displayed": {"type": "string"},
+                    "price_as_displayed": {"type": "string"},
                 },
                 "required": [
-                    "address",
-                    "checked_at_utc",
-                    "zillow_property_url",
-                    "current_status",
-                    "current_status_explanation",
-                    "ever_listed_for_rent",
-                    "rental_history",
-                    "listing_scope",
-                    "listing_scope_explanation",
-                    "limitations",
+                    "date_as_displayed",
+                    "event_as_displayed",
+                    "price_as_displayed",
                 ],
                 "additionalProperties": False,
             },
-        }
+        },
+        "listing_scope": {
+            "type": "string",
+            "enum": [
+                "entire_house_or_condo",
+                "unit_within_property",
+                "unclear",
+            ],
+        },
+        "listing_scope_explanation": {"type": "string"},
+        "limitations": {"type": "string"},
     },
-    input=f"""
+    "required": [
+        "address",
+        "checked_at_utc",
+        "zillow_property_url",
+        "current_status",
+        "current_status_explanation",
+        "ever_listed_for_rent",
+        "rental_history",
+        "listing_scope",
+        "listing_scope_explanation",
+        "limitations",
+    ],
+    "additionalProperties": False,
+}
+
+
+def slugify(address):
+    return re.sub(r"[^a-z0-9]+", "-", address.lower()).strip("-")
+
+
+def build_prompt(address, checked_at):
+    return f"""
 Check Zillow for this exact property:
 
-{ADDRESS}
+{address}
 
 The check is being performed at {checked_at} UTC.
 
@@ -139,33 +126,58 @@ Important rules:
 - Do not treat Zillow's generic property-type label, such as "House for rent,"
   as conclusive when the description or other listing details indicate that
   only part of the property is being offered.
-""",
-)
-
-result = json.loads(response.output_text)
-print(json.dumps(result, indent=2))
+"""
 
 
-def collect_urls(value):
-    if isinstance(value, dict):
-        for key, child in value.items():
-            if key == "url" and isinstance(child, str):
-                yield child
-            else:
-                yield from collect_urls(child)
-    elif isinstance(value, list):
-        for child in value:
-            yield from collect_urls(child)
+def check_address(client, address):
+    checked_at = datetime.now(timezone.utc).isoformat()
+
+    return client.responses.create(
+        model="gpt-5.6-luna",
+        reasoning={"effort": "high"},
+        tools=[
+            {
+                "type": "web_search",
+                "search_context_size": "high",
+                "filters": {"allowed_domains": ["zillow.com"]},
+                "user_location": {
+                    "type": "approximate",
+                    "country": "US",
+                    "region": "District of Columbia",
+                    "city": "Washington",
+                    "timezone": "America/New_York",
+                },
+            }
+        ],
+        tool_choice="required",
+        include=["web_search_call.action.sources"],
+        text={
+            "format": {
+                "type": "json_schema",
+                "name": "zillow_rental_check",
+                "strict": True,
+                "schema": RESPONSE_SCHEMA,
+            }
+        },
+        input=build_prompt(address, checked_at),
+    )
 
 
-all_urls = sorted(
-    {
-        url
-        for url in collect_urls(response.model_dump())
-        if "zillow.com" in url.lower()
-    }
-)
+def main():
+    client = OpenAI()
+    OUTPUTS_DIR.mkdir(parents=True, exist_ok=True)
 
-print("\nZillow sources consulted:")
-for url in all_urls:
-    print(f"- {url}")
+    for index, address in enumerate(ADDRESSES, start=1):
+        print(f"\n[{index}/{len(ADDRESSES)}] Checking {address}")
+        response = check_address(client, address)
+
+        output_path = OUTPUTS_DIR / f"{slugify(address)}-response.json"
+        output_path.write_text(response.model_dump_json(indent=2), encoding="utf-8")
+
+        result = json.loads(response.output_text)
+        print(json.dumps(result, indent=2))
+        print(f"Raw API response saved to: {output_path.relative_to(PROJECT_DIR)}")
+
+
+if __name__ == "__main__":
+    main()

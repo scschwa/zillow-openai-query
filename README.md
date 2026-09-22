@@ -1,18 +1,26 @@
 # Zillow rental-status query with OpenAI
 
 This example uses the OpenAI Responses API, GPT-5.6 Luna, and the built-in
-web-search tool to inspect Zillow for a specific property's current rental
-status, visible rental-listing events in its Price History, and whether the
-listing covers the full residence or a unit within the property.
+web-search tool to inspect three Zillow properties. Each address is submitted
+in a separate API request.
 
-The search tool is restricted to `zillow.com`. The response uses a strict JSON
-schema and allows `unknown` or `unclear` when Zillow, the Price History, or the
-relevant listing details cannot be accessed reliably.
+For each property, the script checks:
+
+1. Whether Zillow currently lists it for rent.
+2. Whether the accessible Zillow Price History shows that it was ever listed
+   for rent, including visible dates and prices.
+3. Whether the rental listing appears to cover the full house or condo, or a
+   unit within the property such as a room, basement, floor, or ADU.
+
+The web search is restricted to `zillow.com`. Results use a strict JSON schema
+with explicit `unknown` and `unclear` states so inaccessible or conflicting
+Zillow evidence is not converted into a false conclusion.
 
 OpenAI documentation:
 
 - [GPT-5.6 Luna](https://developers.openai.com/api/docs/models/gpt-5.6-luna)
 - [Web search](https://developers.openai.com/api/docs/guides/tools-web-search)
+- [Responses API](https://developers.openai.com/api/reference/python/resources/responses)
 
 ## Setup
 
@@ -38,69 +46,89 @@ $env:OPENAI_API_KEY = "your-api-key"
 
 Do not commit the API key or store it directly in the script.
 
-Run the example:
+## Run
 
 ```powershell
 python .\zillow_rental_check.py
 ```
 
-Each run performs a billable API request and may incur a web-search tool charge.
-Results can change as Zillow updates the listing or restricts page access.
+The script makes one billable, web-search-enabled API request per address. It
+prints each structured result and writes the full SDK response object to a
+deterministic JSON file under `outputs/`. A later run replaces the corresponding
+file for that address.
 
-## Test execution
+To check different properties, edit the `ADDRESSES` list in
+`zillow_rental_check.py`.
 
-The script was tested successfully on September 22, 2026 using Python 3.12.10
-and OpenAI Python SDK 3.3.1. The API returned the following exact console output:
+## Included test cases and latest results
 
-```text
-{
-  "address": "3726 Harrison St NW, Washington, DC 20015",
-  "checked_at_utc": "2026-09-22T12:19:37.566629+00:00",
-  "zillow_property_url": "https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/",
-  "current_status": "listed_for_rent",
-  "current_status_explanation": "Yes. Zillow's exact-address property page shows \u201cHouse for rent,\u201d $2,000/mo, \u201cAvailable now,\u201d and an active application/listing interface. ([zillow.com](https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/))",
-  "ever_listed_for_rent": "yes",
-  "rental_history": [
-    {
-      "date_as_displayed": "6/2/2026",
-      "event_as_displayed": "Listed for rent",
-      "price_as_displayed": "$2,000$2/sqft"
-    },
-    {
-      "date_as_displayed": "8/26/2024",
-      "event_as_displayed": "Listed for rent",
-      "price_as_displayed": "$2,000$2/sqft"
-    }
-  ],
-  "listing_scope": "unit_within_property",
-  "listing_scope_explanation": "The listing describes the offering as a \u201cBright Spacious English Basement,\u201d approximately 950 sq ft, with a private washer-dryer, private/separate central AC/heat, and a separate/private entrance. Those details indicate that only a basement unit within the single-family property is being rented, not the entire house. ([zillow.com](https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/))",
-  "limitations": "Assessment is based solely on the accessible Zillow property-detail page and its visible Price history section. Zillow's page identifies the property as a single-family residence, but the rental description specifically advertises the English-basement unit."
-}
+These results were generated on September 22, 2026 using Python 3.12.10 and
+OpenAI Python SDK 3.3.1.
 
-Zillow sources consulted:
-- https://www.zillow.com/b/3726-brandywine-st-nw-washington-dc-9PbhNk/
-- https://www.zillow.com/homedetails/3718-Harrison-St-NW-Washington-DC-20015/449404_zpid/
-- https://www.zillow.com/homedetails/3723-Harrison-St-NW-Washington-DC-20015/35725302_zpid/
-- https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/
-- https://www.zillow.com/homedetails/3726-Jenifer-St-NW-Washington-DC-20015/449315_zpid/
-- https://www.zillow.com/homedetails/3726-Jocelyn-St-NW-Washington-DC-20015/449150_zpid/
-- https://www.zillow.com/homedetails/3726-Military-Rd-NW-Washington-DC-20015/449080_zpid/
-- https://www.zillow.com/homedetails/3726-Northampton-St-NW-Washington-DC-20015/448925_zpid/
-- https://www.zillow.com/homedetails/3726-Warren-St-NW-Washington-DC-20016/449748_zpid/
-- https://www.zillow.com/homedetails/3728-Harrison-St-NW-Washington-DC-20015/449396_zpid/
-- https://www.zillow.com/homedetails/3731-Harrison-St-NW-Washington-DC-20015/449374_zpid/
-- https://www.zillow.com/washington-dc-20015/sold/2_p/
-```
+| Address | Current Zillow status | Rental history | Listing scope |
+| --- | --- | --- | --- |
+| 3726 Harrison St NW, Washington, DC 20015 | Listed for rent at $2,000/month | Yes | Unit within property |
+| 4218 38th St NW, Washington, DC 20016 | Listed for rent at $6,100/month | Yes | Entire house or condo |
+| 3715 Fessenden St NW, Washington, DC 20016 | Not listed for rent | Unknown | Unclear |
 
-## Result summary
+### 3726 Harrison St NW
 
-At the test time, the exact Zillow property page reported the property as an
-active rental at $2,000 per month and available immediately. Its visible Price
-History contained two `Listed for rent` events:
+Zillow showed an active $2,000-per-month rental. The visible Price History
+contained `Listed for rent` events dated June 2, 2026 and August 26, 2024, both
+at $2,000.
 
-- June 2, 2026 at $2,000
-- August 26, 2024 at $2,000
+The scope classifier returned `unit_within_property`. Although Zillow used the
+generic label `House for rent`, the description advertised a roughly
+950-square-foot English basement with a separate entrance, private laundry,
+and a full kitchen.
 
-The listing was classified as `unit_within_property`. Its description advertises
-a roughly 950-square-foot English basement with a separate entrance, private
-laundry, and separate heating and air conditioning, rather than the full house.
+[View the full raw response](outputs/3726-harrison-st-nw-washington-dc-20015-response.json)
+
+### 4218 38th St NW
+
+Zillow rental-search results showed the exact address as a current
+$6,100-per-month rental with 3 bedrooms, 3.5 bathrooms, and 2,346 square feet.
+The visible Price History contained `Listed for rent` events dated June 10,
+2022 at $5,500 and May 25, 2017 at $4,500.
+
+The scope classifier returned `entire_house_or_condo`. The listing presented a
+3-bedroom house without a unit, room, basement, floor, or shared-space
+identifier, and the matching property page described a single-family home.
+
+There is an important current-status caveat: Zillow's rental-search results
+showed an active listing, while the matching property-detail page displayed
+`Off market`. The model favored the newer rental-search evidence but preserved
+the conflict in the response limitations.
+
+[View the full raw response](outputs/4218-38th-st-nw-washington-dc-20016-response.json)
+
+### 3715 Fessenden St NW
+
+The exact Zillow page stated that the property was off market and not currently
+for sale or rent. Its displayed Rent Zestimate was correctly treated as an
+estimate rather than an active rental listing.
+
+The historical answer is `unknown`, not `no`. Zillow's Price History remained
+in a loading state during the test, so the model could not verify whether a
+`Listed for rent` event has ever appeared. This result does not establish that
+the property was previously rented or that it was never rented.
+
+The scope is also `unclear` because there is no active or historical rental
+description from which to determine whether a hypothetical listing covered the
+full house or only a unit.
+
+[View the full raw response](outputs/3715-fessenden-st-nw-washington-dc-20016-response.json)
+
+## Raw response files
+
+The committed JSON files contain the full response objects returned by the
+OpenAI Python SDK, including response metadata, web-search actions and source
+URLs, the structured model output, and token usage. They do not contain the
+OpenAI API key.
+
+- [3726 Harrison Street response](outputs/3726-harrison-st-nw-washington-dc-20015-response.json)
+- [4218 38th Street response](outputs/4218-38th-st-nw-washington-dc-20016-response.json)
+- [3715 Fessenden Street response](outputs/3715-fessenden-st-nw-washington-dc-20016-response.json)
+
+Zillow content and listing availability can change over time. Re-run the script
+when a current answer is required.
