@@ -69,6 +69,15 @@ response = client.responses.create(
                             "additionalProperties": False,
                         },
                     },
+                    "listing_scope": {
+                        "type": "string",
+                        "enum": [
+                            "entire_house_or_condo",
+                            "unit_within_property",
+                            "unclear",
+                        ],
+                    },
+                    "listing_scope_explanation": {"type": "string"},
                     "limitations": {"type": "string"},
                 },
                 "required": [
@@ -79,6 +88,8 @@ response = client.responses.create(
                     "current_status_explanation",
                     "ever_listed_for_rent",
                     "rental_history",
+                    "listing_scope",
+                    "listing_scope_explanation",
                     "limitations",
                 ],
                 "additionalProperties": False,
@@ -92,12 +103,15 @@ Check Zillow for this exact property:
 
 The check is being performed at {checked_at} UTC.
 
-Answer these two questions:
+Answer these three questions:
 
 1. Is the property currently listed for rent on Zillow?
 2. In Zillow's "Price history" section, has the property ever been
    listed for rent? If so, return every visible rental-listing event,
    including its date, event wording, and price.
+3. Based on the listing details, does the rental appear to cover the entire
+   house or condo at this address, or a unit within the property, such as a
+   room, basement, floor, accessory dwelling unit, or in-law suite?
 
 Important rules:
 
@@ -114,6 +128,17 @@ Important rules:
   return "unknown" for the affected answer and explain why.
 - Use "no" for ever_listed_for_rent only if you inspected the accessible
   Price history and it contains no rental-listing event.
+- For listing_scope, use listing details such as the description, title,
+  property type, bedroom/bathroom count, square footage, unit identifiers,
+  separate or shared entrances, shared spaces, and references to an owner or
+  other occupants. Explain the specific evidence supporting the classification.
+- Use "entire_house_or_condo" when the listing appears to advertise the full
+  residence, "unit_within_property" when it advertises only part of the
+  property, and "unclear" when the accessible evidence is insufficient or
+  conflicting.
+- Do not treat Zillow's generic property-type label, such as "House for rent,"
+  as conclusive when the description or other listing details indicate that
+  only part of the property is being offered.
 """,
 )
 
@@ -144,4 +169,3 @@ all_urls = sorted(
 print("\nZillow sources consulted:")
 for url in all_urls:
     print(f"- {url}")
-

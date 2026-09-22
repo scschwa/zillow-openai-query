@@ -2,11 +2,12 @@
 
 This example uses the OpenAI Responses API, GPT-5.6 Luna, and the built-in
 web-search tool to inspect Zillow for a specific property's current rental
-status and visible rental-listing events in its Price History.
+status, visible rental-listing events in its Price History, and whether the
+listing covers the full residence or a unit within the property.
 
 The search tool is restricted to `zillow.com`. The response uses a strict JSON
-schema and allows `unknown` when Zillow or the Price History cannot be accessed
-reliably, avoiding a false negative based only on missing search results.
+schema and allows `unknown` or `unclear` when Zillow, the Price History, or the
+relevant listing details cannot be accessed reliably.
 
 OpenAI documentation:
 
@@ -54,10 +55,10 @@ and OpenAI Python SDK 3.3.1. The API returned the following exact console output
 ```text
 {
   "address": "3726 Harrison St NW, Washington, DC 20015",
-  "checked_at_utc": "2026-09-22T12:04:50.134691+00:00",
+  "checked_at_utc": "2026-09-22T12:19:37.566629+00:00",
   "zillow_property_url": "https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/",
   "current_status": "listed_for_rent",
-  "current_status_explanation": "Yes. Zillow's exact property page identifies the home as \"House for rent,\" shows an active rent of $2,000/month, and says it is available now. ([zillow.com](https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/))",
+  "current_status_explanation": "Yes. Zillow's exact-address property page shows \u201cHouse for rent,\u201d $2,000/mo, \u201cAvailable now,\u201d and an active application/listing interface. ([zillow.com](https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/))",
   "ever_listed_for_rent": "yes",
   "rental_history": [
     {
@@ -71,22 +72,24 @@ and OpenAI Python SDK 3.3.1. The API returned the following exact console output
       "price_as_displayed": "$2,000$2/sqft"
     }
   ],
-  "limitations": "The exact Zillow property-detail page and its Price history section were accessible. The visible Price history also includes a non-listing event, \"Listing removed\" on 10/7/2024, which is not included above because the requested rental-listing events are the rows explicitly worded \"Listed for rent.\" ([zillow.com](https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/))"
+  "listing_scope": "unit_within_property",
+  "listing_scope_explanation": "The listing describes the offering as a \u201cBright Spacious English Basement,\u201d approximately 950 sq ft, with a private washer-dryer, private/separate central AC/heat, and a separate/private entrance. Those details indicate that only a basement unit within the single-family property is being rented, not the entire house. ([zillow.com](https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/))",
+  "limitations": "Assessment is based solely on the accessible Zillow property-detail page and its visible Price history section. Zillow's page identifies the property as a single-family residence, but the rental description specifically advertises the English-basement unit."
 }
 
 Zillow sources consulted:
 - https://www.zillow.com/b/3726-brandywine-st-nw-washington-dc-9PbhNk/
-- https://www.zillow.com/browse/homes/dc/district-of-columbia/20015/6/
+- https://www.zillow.com/homedetails/3718-Harrison-St-NW-Washington-DC-20015/449404_zpid/
+- https://www.zillow.com/homedetails/3723-Harrison-St-NW-Washington-DC-20015/35725302_zpid/
 - https://www.zillow.com/homedetails/3726-Harrison-St-NW-Washington-DC-20015/449397_zpid/
 - https://www.zillow.com/homedetails/3726-Jenifer-St-NW-Washington-DC-20015/449315_zpid/
 - https://www.zillow.com/homedetails/3726-Jocelyn-St-NW-Washington-DC-20015/449150_zpid/
 - https://www.zillow.com/homedetails/3726-Military-Rd-NW-Washington-DC-20015/449080_zpid/
 - https://www.zillow.com/homedetails/3726-Northampton-St-NW-Washington-DC-20015/448925_zpid/
+- https://www.zillow.com/homedetails/3726-Warren-St-NW-Washington-DC-20016/449748_zpid/
 - https://www.zillow.com/homedetails/3728-Harrison-St-NW-Washington-DC-20015/449396_zpid/
-- https://www.zillow.com/washington-dc-20015/
-- https://www.zillow.com/washington-dc-20015/houses/
-- https://www.zillow.com/washington-dc-20015/luxury-homes/
-- https://www.zillow.com/washington-dc-20015/sold/3_p/
+- https://www.zillow.com/homedetails/3731-Harrison-St-NW-Washington-DC-20015/449374_zpid/
+- https://www.zillow.com/washington-dc-20015/sold/2_p/
 ```
 
 ## Result summary
@@ -98,5 +101,6 @@ History contained two `Listed for rent` events:
 - June 2, 2026 at $2,000
 - August 26, 2024 at $2,000
 
-The Price History also included a `Listing removed` event dated October 7, 2024.
-
+The listing was classified as `unit_within_property`. Its description advertises
+a roughly 950-square-foot English basement with a separate entrance, private
+laundry, and separate heating and air conditioning, rather than the full house.
